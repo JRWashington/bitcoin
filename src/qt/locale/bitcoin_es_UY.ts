@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Clic derecho para editar dirección o etiqueta</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Crear una nueva dirección </translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>Nuevo</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copia la dirección seleccionada al portapapeles del sistema</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>Copiar</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>Cerrar</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -36,6 +20,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Direccion </translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -102,12 +94,8 @@
         <translation>Cambiar contraseña</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>Enviando direcciones</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Recibiendo direcciones</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Billetera:</translation>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
@@ -166,17 +154,6 @@
         <translation>Ponerse al dia...</translation>
     </message>
     <message>
-        <source>Type: %1
-</source>
-        <translation>Tipo: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Dirección: %1</translation>
-    </message>
-    <message>
         <source>Sent transaction</source>
         <translation>Transaccion enviada</translation>
     </message>
@@ -196,24 +173,12 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Quantity:</source>
-        <translation>Cantidad:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>AMonto:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Cambio:</translation>
+        <source>Amount</source>
+        <translation>AMonto</translation>
     </message>
     <message>
         <source>Date</source>
@@ -222,10 +187,6 @@
     <message>
         <source>Confirmed</source>
         <translation>Confirmado</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Prioridad</translation>
     </message>
     </context>
 <context>
@@ -257,6 +218,13 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulario</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -285,6 +253,10 @@
     </context>
 <context>
     <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>AMonto</translation>
+    </message>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -295,9 +267,17 @@
         <source>&amp;Information</source>
         <translation>Información</translation>
     </message>
+    <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">Billetera: </translation>
+    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>A&amp;Monto:</translation>
+    </message>
     <message>
         <source>&amp;Label:</source>
         <translation>&amp;Etiqueta:</translation>
@@ -306,12 +286,28 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Copiar Dirección</translation>
+        <source>Address</source>
+        <translation>Direccion </translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>AMonto</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -320,24 +316,8 @@
         <translation>Enviar monedas</translation>
     </message>
     <message>
-        <source>Quantity:</source>
-        <translation>Cantidad:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>AMonto:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Cambio:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -416,15 +396,47 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>AMonto</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmado</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Direccion </translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -434,9 +446,17 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Enviar monedas</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>Exportar</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Click destro per modificare indirizzo o etichetta</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Crea un nuovo indirizzo</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>nuovo</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>copia l'indirizzo selezionato correntemente nella clipboard di sistema</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>copia</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>chiudi </translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Etichetta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Indirizzo</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -62,11 +54,7 @@
     </context>
 <context>
     <name>BanTableModel</name>
-    <message>
-        <source>Banned Until</source>
-        <translation>bannato fino </translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -79,6 +67,14 @@
     </context>
 <context>
     <name>EditAddressDialog</name>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Etichetta</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Indirizzo</translation>
+    </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
@@ -88,6 +84,9 @@
     </context>
 <context>
     <name>Intro</name>
+    </context>
+<context>
+    <name>ModalOverlay</name>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -112,25 +111,41 @@
     </context>
 <context>
     <name>RPCConsole</name>
-    <message>
-        <source>Ban Node for</source>
-        <translation>Nodo bannato per</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation type="unfinished">&amp;Etichetta:</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Indirizzo</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etichetta</translation>
+    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Etichetta</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     </context>
 <context>
     <name>SendCoinsEntry</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation type="unfinished">&amp;Etichetta:</translation>
+    </message>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
@@ -155,9 +170,21 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Etichetta</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Label</source>
+        <translation>Etichetta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Indirizzo</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -170,6 +197,14 @@
     </context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>Esporta</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Esportare i dati nella scheda corrente in un file</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

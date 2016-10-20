@@ -6,16 +6,8 @@
         <translation>Tạo một địa chỉ mới</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>Tạo mới</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Sao chép các địa chỉ đã được chọn vào bộ nhớ tạm thời của hệ thống</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>Sao chép</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -24,6 +16,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -66,6 +66,9 @@
     <name>Intro</name>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -95,16 +98,36 @@
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Số lượng:&gt;</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>Nhãn dữ liệu:</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Sao chép địa chỉ</translation>
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -115,6 +138,14 @@
     </context>
 <context>
     <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>&amp;Số lượng:&gt;</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>Nhãn dữ liệu:</translation>
+    </message>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
@@ -133,15 +164,31 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>

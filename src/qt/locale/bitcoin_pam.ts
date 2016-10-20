@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>I-right click ban alilan ing address o libel</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Maglalang kang bayung address</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Bayu</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopyan me ing salukuyan at makipiling address keng system clipboard</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopyan</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>I&amp;sara</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -36,6 +20,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation type="unfinished">Label</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished">Address</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -118,8 +110,8 @@
         <translation>&amp;Alilan ing Passphrase...</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Address king pamag-Tanggap</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Wallet:</translation>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
@@ -154,6 +146,10 @@
         <translation>Wallet</translation>
     </message>
     <message>
+        <source>&amp;Send</source>
+        <translation type="unfinished">Ipadala</translation>
+    </message>
+    <message>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Ipalto / Isalikut</translation>
     </message>
@@ -176,10 +172,6 @@
     <message>
         <source>Tabs toolbar</source>
         <translation>Gamit para king Tabs</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>Pipamilian command-line</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -270,10 +262,6 @@
         <translation>bersion</translation>
     </message>
     <message>
-        <source>Command-line options</source>
-        <translation>Pipamilian command-line</translation>
-    </message>
-    <message>
         <source>Usage:</source>
         <translation>Pamanggamit:</translation>
     </message>
@@ -294,6 +282,17 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Form</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Tatauling oras na ning block</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -309,6 +308,10 @@
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Network</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation type="unfinished">&amp;Wallet</translation>
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -373,6 +376,10 @@
     <message>
         <source>default</source>
         <translation>default</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Kapilubluban ning Bitcoin</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -473,6 +480,10 @@
         <translation>Kasalungsungan bilang dareng blocks</translation>
     </message>
     <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">Wallet: </translation>
+    </message>
+    <message>
         <source>Last block time</source>
         <translation>Tatauling oras na ning block</translation>
     </message>
@@ -483,10 +494,6 @@
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Console</translation>
-    </message>
-    <message>
-        <source>Totals</source>
-        <translation>Kabuuan:</translation>
     </message>
     <message>
         <source>Debug log file</source>
@@ -508,6 +515,10 @@
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
+        <source>&amp;Amount:</source>
+        <translation>A&amp;laga:</translation>
+    </message>
+    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Label:</translation>
     </message>
@@ -515,12 +526,28 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Kopyan ing address</translation>
+        <source>Address</source>
+        <translation type="unfinished">Address</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Alaga</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation type="unfinished">Label</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation type="unfinished">Label</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -529,16 +556,8 @@
         <translation>Magpadalang Barya</translation>
     </message>
     <message>
-        <source>Insufficient funds!</source>
-        <translation>Kulang a pondo</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Alaga:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Bayad king Transaksion:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -590,10 +609,6 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Mensayi:</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -685,6 +700,14 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Alaga</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -695,9 +718,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation type="unfinished">Label</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Me-kumpirma</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation type="unfinished">Label</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished">Address</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -707,9 +754,17 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Magpadalang Barya</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>Backup Wallet</source>
+        <translation type="unfinished">I-Backup ing Wallet</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

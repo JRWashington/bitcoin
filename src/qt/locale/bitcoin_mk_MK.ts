@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Десен клик за уредување на адреса или етикета</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Креирај нова адреса</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Нова</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Копирај ја избраната адреса на системскиот клипборд</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Копирај</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>З&amp;атвори</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -76,10 +68,6 @@
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Преглед</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Јазол</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -122,16 +110,8 @@
         <translation>&amp;Измени Тајна Фраза...</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Адреси за Испраќање...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Адреси за Примање...</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>Отвори &amp;URI...</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Паричник:</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -181,26 +161,6 @@
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>Обработен %n блок од историјата на трансакции.</numerusform><numerusform>Обработени %n блокови од историјата на трансакции.</numerusform></translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n час</numerusform><numerusform>%n часови</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n ден</numerusform><numerusform>%n денови</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n недела</numerusform><numerusform>%n недели</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 и %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n година</numerusform><numerusform>%n години</numerusform></translation>
-    </message>
     <message>
         <source>%1 behind</source>
         <translation>%1 позади</translation>
@@ -217,66 +177,12 @@
         <source>Up to date</source>
         <translation>Во тек</translation>
     </message>
-    <message>
-        <source>Date: %1
-</source>
-        <translation>Дата: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Сума: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Тип: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Етикета: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Адреса: %1
-</translation>
-    </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Bytes:</source>
-        <translation>Бајти:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Сума:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Приоритет:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Провизија:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Прашина:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>После Провизија:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Кусур:</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -285,10 +191,6 @@
     <message>
         <source>Date</source>
         <translation>Дата</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Приоритет</translation>
     </message>
     </context>
 <context>
@@ -319,10 +221,6 @@
         <source>version</source>
         <translation>верзија</translation>
     </message>
-    <message>
-        <source>(%1-bit)</source>
-        <translation>(%1-бит)</translation>
-    </message>
     </context>
 <context>
     <name>Intro</name>
@@ -332,25 +230,16 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
-    <message>
-        <source>Open URI</source>
-        <translation>Отвори URI</translation>
-    </message>
-    <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
-    </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
         <translation>Опции</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>МБ</translation>
     </message>
     <message>
         <source>&amp;Network</source>
@@ -373,8 +262,8 @@
         <translation>&amp;Откажи</translation>
     </message>
     <message>
-        <source>none</source>
-        <translation>нема</translation>
+        <source>Bitcoin Core</source>
+        <translation>Биткоин Core</translation>
     </message>
     </context>
 <context>
@@ -396,25 +285,21 @@
         <source>Amount</source>
         <translation>Сума</translation>
     </message>
-    <message>
-        <source>%1 d</source>
-        <translation>%1 д</translation>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n час</numerusform><numerusform>%n часови</numerusform></translation>
     </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 ч</translation>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n ден</numerusform><numerusform>%n денови</numerusform></translation>
     </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 м</translation>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n недела</numerusform><numerusform>%n недели</numerusform></translation>
     </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 с</translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 мс</translation>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n година</numerusform><numerusform>%n години</numerusform></translation>
     </message>
 </context>
 <context>
@@ -427,10 +312,6 @@
         <translation>Мрежа</translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>Име</translation>
-    </message>
-    <message>
         <source>Number of connections</source>
         <translation>Број на конекции</translation>
     </message>
@@ -439,32 +320,12 @@
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Sent</source>
-        <translation>Испратени</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Верзија</translation>
+        <source>Wallet: </source>
+        <translation type="unfinished">Паричник: </translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Конзола</translation>
-    </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 Б</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 КБ</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 МБ</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 ГБ</translation>
     </message>
     </context>
 <context>
@@ -477,66 +338,42 @@
         <source>&amp;Label:</source>
         <translation>&amp;Етикета:</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>&amp;Порака:</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation>Прикажи</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>QR Code</source>
-        <translation>QR Код</translation>
+        <source>Address</source>
+        <translation>Адреса</translation>
     </message>
     <message>
-        <source>Copy &amp;URI</source>
-        <translation>Копирај &amp;URI</translation>
+        <source>Amount</source>
+        <translation>Сума</translation>
     </message>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Копирај &amp;Адреса</translation>
-    </message>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Сними Слика...</translation>
+        <source>Label</source>
+        <translation>Етикета</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
-    <message>
-        <source>Bytes:</source>
-        <translation>Бајти:</translation>
-    </message>
     <message>
         <source>Amount:</source>
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Приоритет:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Провизија:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>После Провизија:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Кусур:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Прашина:</translation>
+        <source>S&amp;end</source>
+        <translation type="unfinished">&amp;Испрати</translation>
     </message>
     </context>
 <context>
@@ -548,10 +385,6 @@
     <message>
         <source>&amp;Label:</source>
         <translation>&amp;Етикета:</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Порака:</translation>
     </message>
     </context>
 <context>
@@ -571,15 +404,43 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Сума</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -592,6 +453,18 @@
     </context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Експорт</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Експортирај ги податоците од активното јазиче во датотека</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation type="unfinished">Бекап на Паричник</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

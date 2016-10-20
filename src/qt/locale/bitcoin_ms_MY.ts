@@ -6,16 +6,8 @@
         <translation>Cipta alamat baru</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Baru</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Salin alamat terpilih ke dalam sistem papan klip</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Salin</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -37,6 +29,10 @@ Alihkan fail data ke dalam tab semasa</translation>
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -75,6 +71,9 @@ Alihkan fail data ke dalam tab semasa</translation>
     <name>Intro</name>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -104,8 +103,8 @@ Alihkan fail data ke dalam tab semasa</translation>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Salin Alamat</translation>
+        <source>Address</source>
+        <translation>Alamat</translation>
     </message>
     </context>
 <context>
@@ -147,6 +146,10 @@ Alihkan fail data ke dalam tab semasa</translation>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -159,6 +162,15 @@ Alihkan fail data ke dalam tab semasa</translation>
     </context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Eksport</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>
+Alihkan fail data ke dalam tab semasa</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

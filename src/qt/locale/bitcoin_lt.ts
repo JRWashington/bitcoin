@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Spustelėkite dešinįjį klaviša norint keisti adresą arba etiketę</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Sukurti naują adresą</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Naujas</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopijuoti esamą adresą į mainų atmintį</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopijuoti</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>&amp;Užverti</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Žymė</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresas</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -66,11 +58,7 @@
     </context>
 <context>
     <name>BanTableModel</name>
-    <message>
-        <source>Banned Until</source>
-        <translation>Užblokuotas iki</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -84,10 +72,6 @@
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Apžvalga</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Taškas</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -108,10 +92,6 @@
     <message>
         <source>Quit application</source>
         <translation>Išjungti programą</translation>
-    </message>
-    <message>
-        <source>&amp;About %1</source>
-        <translation>&amp;Apie %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -138,16 +118,8 @@
         <translation>&amp;Keisti slaptafrazę...</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Siunčiami adresai...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Gaunami adresai...</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>Atidaryti &amp;URI...</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Piniginė:</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -222,10 +194,6 @@
         <translation>Kortelių įrankinė</translation>
     </message>
     <message>
-        <source>&amp;Command-line options</source>
-        <translation>Komandinės eilutės parametrai</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
@@ -265,48 +233,8 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Selection</source>
-        <translation>Monetų pasirinkimas</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Kiekis:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Baitai:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Suma:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Pirmumas:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Mokestis:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Po mokesčio:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Graža:</translation>
-    </message>
-    <message>
-        <source>(un)select all</source>
-        <translation>(ne)pasirinkti viską</translation>
-    </message>
-    <message>
-        <source>Tree mode</source>
-        <translation>Medžio režimas</translation>
-    </message>
-    <message>
-        <source>List mode</source>
-        <translation>Sąrašo režimas</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -317,16 +245,8 @@
         <translation>Data</translation>
     </message>
     <message>
-        <source>Confirmations</source>
-        <translation>Patvirtinimai</translation>
-    </message>
-    <message>
         <source>Confirmed</source>
         <translation>Patvirtintas</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Pirmumas</translation>
     </message>
     </context>
 <context>
@@ -358,10 +278,6 @@
         <translation>versija</translation>
     </message>
     <message>
-        <source>Command-line options</source>
-        <translation>Komandinės eilutės parametrai</translation>
-    </message>
-    <message>
         <source>Usage:</source>
         <translation>Naudojimas:</translation>
     </message>
@@ -382,6 +298,17 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Forma</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Paskutinio bloko laikas</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -393,14 +320,6 @@
     <message>
         <source>&amp;Main</source>
         <translation>&amp;Pagrindinės</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>MB</translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Proxy IP adresas (Pvz. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -433,18 +352,6 @@
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Tarpinio serverio preivadas (pvz, 9050)</translation>
-    </message>
-    <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
-    </message>
-    <message>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
-    </message>
-    <message>
-        <source>Tor</source>
-        <translation>Tor</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -491,20 +398,12 @@
         <translation>numatyta</translation>
     </message>
     <message>
-        <source>none</source>
-        <translation>niekas</translation>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin branduolys</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
         <translation>Patvirtinti nustatymų atstatymą</translation>
-    </message>
-    <message>
-        <source>Client restart required to activate changes.</source>
-        <translation>Kliento perkrovimas reikalingas nustatymų aktyvavimui</translation>
-    </message>
-    <message>
-        <source>This change would require a client restart.</source>
-        <translation>Šis pakeitimas reikalautų kliento perkrovimo</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -518,16 +417,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Available:</source>
-        <translation>Galimi:</translation>
-    </message>
-    <message>
         <source>Your current spendable balance</source>
         <translation>Jūsų dabartinis išleidžiamas balansas</translation>
-    </message>
-    <message>
-        <source>Pending:</source>
-        <translation>Laukiantys:</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -553,14 +444,6 @@
     <message>
         <source>Amount</source>
         <translation>Suma</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -597,10 +480,6 @@
         <translation>Tinklas</translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>Pavadinimas</translation>
-    </message>
-    <message>
         <source>Number of connections</source>
         <translation>Prisijungimų kiekis</translation>
     </message>
@@ -613,16 +492,8 @@
         <translation>Dabartinis blokų skaičius</translation>
     </message>
     <message>
-        <source>Received</source>
-        <translation>Gauta</translation>
-    </message>
-    <message>
-        <source>Direction</source>
-        <translation>Kryptis</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Versija</translation>
+        <source>Wallet: </source>
+        <translation type="unfinished">Piniginė: </translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -637,48 +508,12 @@
         <translation>&amp;Konsolė</translation>
     </message>
     <message>
-        <source>&amp;Clear</source>
-        <translation>Išvalyti</translation>
-    </message>
-    <message>
-        <source>Totals</source>
-        <translation>Viso:</translation>
-    </message>
-    <message>
         <source>Debug log file</source>
         <translation>Derinimo žurnalo failas</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Išvalyti konsolę</translation>
-    </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 KB</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GB</translation>
-    </message>
-    <message>
-        <source>never</source>
-        <translation>Niekada</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>Taip</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Ne</translation>
     </message>
     </context>
 <context>
@@ -691,28 +526,32 @@
         <source>&amp;Label:</source>
         <translation>Ž&amp;ymė:</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>Žinutė:</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <translation>Išvalyti</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>QR Code</source>
-        <translation>QR kodas</translation>
+        <source>Address</source>
+        <translation>Adresas</translation>
     </message>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Kopijuoti adresą</translation>
+        <source>Amount</source>
+        <translation>Suma</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Žymė</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Žymė</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -721,40 +560,8 @@
         <translation>Siųsti monetas</translation>
     </message>
     <message>
-        <source>Insufficient funds!</source>
-        <translation>Nepakanka lėšų</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Kiekis:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Baitai:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Suma:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Pirmumas:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Mokestis:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Po mokesčio:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Graža:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Sandorio mokestis:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -806,10 +613,6 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Žinutė:</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -878,13 +681,17 @@
 </context>
 <context>
     <name>TrafficGraphWidget</name>
-    <message>
-        <source>KB/s</source>
-        <translation>KB/s</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Suma</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -895,9 +702,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Žymė</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Patvirtintas</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Žymė</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresas</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -907,9 +738,25 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Siųsti monetas</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Eksportuoti</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Eksportuoti informaciją iš dabartinės lentelės į failą</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Backup piniginę</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

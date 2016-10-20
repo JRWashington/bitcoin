@@ -6,20 +6,8 @@
         <translation>گشایش حسابی جدید</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>جدید</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>کپی کردن حساب انتخاب شده به حافظه سیستم - کلیپ بورد</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>کپی</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>بستن</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -40,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>برچسب</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>حساب</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -122,8 +118,8 @@
         <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>دریافت آدرس ها</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">کیف پول:</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -250,6 +246,13 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>فرم</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -328,6 +331,10 @@
         <source>Current number of blocks</source>
         <translation>تعداد زنجیره های حاضر</translation>
     </message>
+    <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">کیف پول: </translation>
+    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -339,30 +346,38 @@
         <source>&amp;Label:</source>
         <translation>و برچسب</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>پیام:</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>کپی آدرس</translation>
+        <source>Address</source>
+        <translation>حساب</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>میزان</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>برچسب</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>برچسب</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
         <translation>سکه های ارسالی</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>وجوه ناکافی</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -412,16 +427,8 @@
         <translation>Alt و P</translation>
     </message>
     <message>
-        <source>Message:</source>
-        <translation>پیام:</translation>
-    </message>
-    <message>
         <source>Pay To:</source>
         <translation>پرداخت به:</translation>
-    </message>
-    <message>
-        <source>Memo:</source>
-        <translation>یادداشت:</translation>
     </message>
     </context>
 <context>
@@ -429,11 +436,7 @@
     </context>
 <context>
     <name>ShutdownWindow</name>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>تا پیش از بسته شدن این پنجره کامپیوتر خود را خاموش نکنید.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
@@ -469,6 +472,14 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>میزان</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -479,9 +490,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>برچسب</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>تایید شده</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>برچسب</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>حساب</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -491,9 +526,25 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>سکه های ارسالی</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>صدور</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>صدور داده نوار جاری به یک فایل</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>گرفتن نسخه پیشتیبان از Wallet</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -514,20 +565,8 @@
         <translation>به عنوان daemon بک گراند را اجرا کنید و دستورات را قبول نمایید</translation>
     </message>
     <message>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>مبلغ تراکنش کمتر از آن است که پس از کسر هزینه  تراکنش قابل ارسال باشد</translation>
-    </message>
-    <message>
-        <source>RPC server options:</source>
-        <translation>گزینه های سرویس دهنده RPC:</translation>
-    </message>
-    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به فایل debug.log</translation>
-    </message>
-    <message>
-        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>ارسال تراکنش ها به صورت بدون کارمزد در صورت امکان (پیش فرض: %u)</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -544,18 +583,6 @@
     <message>
         <source>Loading addresses...</source>
         <translation>لود شدن آدرسها..</translation>
-    </message>
-    <message>
-        <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>تنظیم تعداد ریسمان ها برای سرویس دهی فراخوانی های RPC (پیش فرض: %d)</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: %s)</source>
-        <translation>فایل تنظیمات را مشخص کنید (پیش فرض: %s)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: %s)</source>
-        <translation>فایل pid را مشخص کنید (پیش فرض: %s)</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

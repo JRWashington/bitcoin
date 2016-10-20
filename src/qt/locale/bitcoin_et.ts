@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Paremkliki aadressi või sildi muutmiseks</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Loo uus aadress</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Uus</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopeeri märgistatud aadress vahemällu</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopeeri</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>S&amp;ulge</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Silt</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -126,8 +118,8 @@
         <translation>&amp;Salafraasi muutmine</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Ava &amp;URI...</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Rahakott:</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -210,30 +202,6 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>&amp;Command-line options</source>
-        <translation>Käsurea valikud</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n tund</numerusform><numerusform>%n tundi</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n päev</numerusform><numerusform>%n päeva</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n nädal</numerusform><numerusform>%n nädalat</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 ja %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n aasta</numerusform><numerusform>%n aastat</numerusform></translation>
-    </message>
-    <message>
         <source>%1 behind</source>
         <translation>%1 maas</translation>
     </message>
@@ -266,36 +234,6 @@
         <translation>Jõuan...</translation>
     </message>
     <message>
-        <source>Date: %1
-</source>
-        <translation>Kuupäev: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Summa: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Tüüp: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>&amp;Märgis: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Aadress: %1
-</translation>
-    </message>
-    <message>
         <source>Sent transaction</source>
         <translation>Saadetud tehing</translation>
     </message>
@@ -315,16 +253,8 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Quantity:</source>
-        <translation>Kogus:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Summa:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Tasu:</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -368,10 +298,6 @@
         <translation>versioon</translation>
     </message>
     <message>
-        <source>Command-line options</source>
-        <translation>Käsurea valikud</translation>
-    </message>
-    <message>
         <source>Usage:</source>
         <translation>Kasutus:</translation>
     </message>
@@ -392,15 +318,18 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Vorm</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Viimane ploki aeg</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
-    <message>
-        <source>Open URI</source>
-        <translation>Ava URI</translation>
-    </message>
-    <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
-    </message>
     </context>
 <context>
     <name>OptionsDialog</name>
@@ -411,10 +340,6 @@
     <message>
         <source>&amp;Main</source>
         <translation>&amp;Peamine</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>MB</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -431,10 +356,6 @@
     <message>
         <source>W&amp;allet</source>
         <translation>R&amp;ahakott</translation>
-    </message>
-    <message>
-        <source>Expert</source>
-        <translation>Ekspert</translation>
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -501,6 +422,10 @@
         <translation>vaikeväärtus</translation>
     </message>
     <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoini tuumik</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
         <translation>Kinnita valikute algseadistamine</translation>
     </message>
@@ -527,10 +452,6 @@
         <source>Mined balance that has not yet matured</source>
         <translation>Mitte aegunud mine'itud jääk</translation>
     </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>Hiljutised tehingud</translation>
-    </message>
     </context>
 <context>
     <name>PaymentServer</name>
@@ -548,7 +469,23 @@
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
-    </context>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n tund</numerusform><numerusform>%n tundi</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n päev</numerusform><numerusform>%n päeva</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n nädal</numerusform><numerusform>%n nädalat</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n aasta</numerusform><numerusform>%n aastat</numerusform></translation>
+    </message>
+</context>
 <context>
     <name>QRImageWidget</name>
     </context>
@@ -571,20 +508,12 @@
         <translation>Debugimise aken</translation>
     </message>
     <message>
-        <source>General</source>
-        <translation>Üldine</translation>
-    </message>
-    <message>
         <source>Startup time</source>
         <translation>Käivitamise hetk</translation>
     </message>
     <message>
         <source>Network</source>
         <translation>Võrgustik</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Nimi</translation>
     </message>
     <message>
         <source>Number of connections</source>
@@ -599,24 +528,8 @@
         <translation>Plokkide hetkearv</translation>
     </message>
     <message>
-        <source>Received</source>
-        <translation>Vastuvõetud</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Saadetud</translation>
-    </message>
-    <message>
-        <source>Direction</source>
-        <translation>Suund</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Versioon</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Teenused</translation>
+        <source>Wallet: </source>
+        <translation type="unfinished">Rahakott: </translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -646,22 +559,6 @@
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Ülevaateks võimalikest käsklustest trüki &lt;b&gt;help&lt;/b&gt;.</translation>
     </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GB</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -673,28 +570,32 @@
         <source>&amp;Label:</source>
         <translation>&amp;Märgis</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>&amp;Sõnum:</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation>Näita</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Eemalda</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Kopeeri Aadress</translation>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Kogus</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Silt</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Kuupäev</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Silt</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -703,44 +604,8 @@
         <translation>Müntide saatmine</translation>
     </message>
     <message>
-        <source>Insufficient funds!</source>
-        <translation>Liiga suur summa</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Kogus:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Summa:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Tasu:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Tehingu tasu:</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>Vali...</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Peida</translation>
-    </message>
-    <message>
-        <source>Recommended:</source>
-        <translation>Soovitatud:</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>normaalne</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>kiire</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -792,10 +657,6 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Sõnum:</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -884,13 +745,17 @@
 </context>
 <context>
     <name>TrafficGraphWidget</name>
-    <message>
-        <source>KB/s</source>
-        <translation>KB/s</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Kuupäev</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Kogus</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -901,9 +766,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Kuupäev</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Silt</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Kinnitatud</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Kuupäev</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Silt</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -913,9 +802,25 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Müntide saatmine</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Ekspordi</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Ekspordi kuvatava vahelehe sisu faili</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Varundatud Rahakott</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -1012,20 +917,8 @@
         <translation>Kontrollin rahakotti...</translation>
     </message>
     <message>
-        <source>Wallet options:</source>
-        <translation>Rahakoti valikud:</translation>
-    </message>
-    <message>
-        <source>(default: %u)</source>
-        <translation>(vaikimisi: %u)</translation>
-    </message>
-    <message>
         <source>Information</source>
         <translation>Informatsioon</translation>
-    </message>
-    <message>
-        <source>RPC server options:</source>
-        <translation>RPC serveri valikud:</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -1038,10 +931,6 @@
     <message>
         <source>Signing transaction failed</source>
         <translation>Tehingu allkirjastamine ebaõnnestus</translation>
-    </message>
-    <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>Tehingu summa on tasu maksmiseks liiga väikene</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -1074,10 +963,6 @@
     <message>
         <source>Loading addresses...</source>
         <translation>Aadresside laadimine...</translation>
-    </message>
-    <message>
-        <source>(default: %s)</source>
-        <translation>(vaikimisi: %s)</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>

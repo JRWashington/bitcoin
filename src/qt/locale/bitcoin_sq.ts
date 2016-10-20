@@ -2,24 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Kliko me të djathtën për të ndryshuar adresën ose etiketen.</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Krijo një adresë të re</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;E re</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopjo adresën e zgjedhur në memorjen e sistemit </translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopjo</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -36,6 +24,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Etiketë</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresë</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -86,8 +82,8 @@
         <translation>&amp;Opsione</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Duke marr adresen</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Portofol:</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -130,10 +126,6 @@
         <translation>Shiriti i mjeteve</translation>
     </message>
     <message>
-        <source>%1 and %2</source>
-        <translation>%1 dhe %2</translation>
-    </message>
-    <message>
         <source>%1 behind</source>
         <translation>%1 Pas</translation>
     </message>
@@ -172,10 +164,6 @@
 </context>
 <context>
     <name>CoinControlDialog</name>
-    <message>
-        <source>Coin Selection</source>
-        <translation>Zgjedhja e monedhes</translation>
-    </message>
     <message>
         <source>Amount:</source>
         <translation>Shuma:</translation>
@@ -230,6 +218,13 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formilarë</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -241,6 +236,10 @@
     <message>
         <source>W&amp;allet</source>
         <translation>Portofol</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Berthama Bitcoin</translation>
     </message>
     </context>
 <context>
@@ -273,22 +272,14 @@
         <translation>Informacion</translation>
     </message>
     <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">Portofol: </translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Hap</translation>
     </message>
-    <message>
-        <source>&amp;Clear</source>
-        <translation>&amp;Pastro</translation>
-    </message>
-    <message>
-        <source>never</source>
-        <translation>asnjehere</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>i/e panjohur</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -299,30 +290,38 @@
         <source>&amp;Label:</source>
         <translation>&amp;Etiketë:</translation>
     </message>
-    <message>
-        <source>Clear</source>
-        <translation>Pastro</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Kopjo adresen</translation>
+        <source>Address</source>
+        <translation>Adresë</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Sasia</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketë</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketë</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
         <translation>Dërgo Monedha</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Fonde te pamjaftueshme</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -339,6 +338,10 @@
     <message>
         <source>Confirm the send action</source>
         <translation>Konfirmo veprimin e dërgimit</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation type="unfinished">&amp;Dergo</translation>
     </message>
     </context>
 <context>
@@ -405,6 +408,14 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Sasia</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -415,9 +426,29 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketë</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketë</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresë</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -427,9 +458,17 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Dërgo Monedha</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Eksporto të dhënat e skedës korrente në një skedar</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

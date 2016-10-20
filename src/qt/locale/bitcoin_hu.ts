@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>A cím vagy címke szerkeszteséhez kattintson a jobb gombbal</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Új cím létrehozása</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Új</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>A kiválasztott cím másolása a vágólapra</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Másolás</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>&amp;Bezárás</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Címke</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cím</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -66,15 +58,7 @@
     </context>
 <context>
     <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP-cím/maszk</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Kitiltás vége</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -88,10 +72,6 @@
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Áttekintés</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Csomópont</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -112,10 +92,6 @@
     <message>
         <source>Quit application</source>
         <translation>Kilépés az alkalmazásból</translation>
-    </message>
-    <message>
-        <source>&amp;About %1</source>
-        <translation>&amp;A %1-ról</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -142,16 +118,8 @@
         <translation>Jelszó &amp;megváltoztatása...</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Küldési címek...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Fogadó címek...</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>&amp;URI azonosító megnyitása...</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Tárca:</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -233,26 +201,6 @@
         <source>Tabs toolbar</source>
         <translation>Fül eszköztár</translation>
     </message>
-    <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "bitcoin:" URI azonosítót hoz létre)</translation>
-    </message>
-    <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>A használt küldési címek és címkék megtekintése</translation>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>A használt fogadó címek és címkék megtekintése</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>"bitcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>Paran&amp;cssor kapcsolók</translation>
-    </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform></translation>
@@ -264,26 +212,6 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>%n blokk feldolgozva a tranzakció előzményből.</numerusform><numerusform>%n blokk feldolgozva a tranzakció előzményből.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n óra</numerusform><numerusform>%n óra</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n nap</numerusform><numerusform>%n nap</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n hét</numerusform><numerusform>%n hét</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 és %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n év</numerusform><numerusform>%n év</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -318,36 +246,6 @@
         <translation>Frissítés...</translation>
     </message>
     <message>
-        <source>Date: %1
-</source>
-        <translation>Dátum:  %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Összeg: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Típus: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Címke: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Cím: %1
-</translation>
-    </message>
-    <message>
         <source>Sent transaction</source>
         <translation>Tranzakció elküldve.</translation>
     </message>
@@ -367,80 +265,20 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Selection</source>
-        <translation>Érme Választás</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Mennyiség:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bájtok:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Összeg:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioritás:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Díj:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Por-határ:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Utólagos díj:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Visszajáró:</translation>
-    </message>
-    <message>
-        <source>(un)select all</source>
-        <translation>mindent kiválaszt/elvet</translation>
-    </message>
-    <message>
-        <source>Tree mode</source>
-        <translation>Fa nézet</translation>
-    </message>
-    <message>
-        <source>List mode</source>
-        <translation>Lista nézet</translation>
     </message>
     <message>
         <source>Amount</source>
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Received with label</source>
-        <translation>Címkével érkezett</translation>
-    </message>
-    <message>
-        <source>Received with address</source>
-        <translation>Címmel érkezett</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Dátum</translation>
     </message>
     <message>
-        <source>Confirmations</source>
-        <translation>Megerősítések</translation>
-    </message>
-    <message>
         <source>Confirmed</source>
         <translation>Megerősítve</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Prioritás</translation>
     </message>
     </context>
 <context>
@@ -452,14 +290,6 @@
     <message>
         <source>&amp;Label</source>
         <translation>Cím&amp;ke</translation>
-    </message>
-    <message>
-        <source>The label associated with this address list entry</source>
-        <translation>Ehhez a listaelemhez rendelt címke </translation>
-    </message>
-    <message>
-        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Ehhez a címlistaelemhez rendelt cím. Csak a küldő címek módosíthatók.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -492,14 +322,6 @@
         <translation>verzió</translation>
     </message>
     <message>
-        <source>(%1-bit)</source>
-        <translation>(%1-bit)</translation>
-    </message>
-    <message>
-        <source>Command-line options</source>
-        <translation>Parancssoros opciók</translation>
-    </message>
-    <message>
         <source>Usage:</source>
         <translation>Használat:</translation>
     </message>
@@ -523,10 +345,6 @@
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Hiba: A megadott "%1" adatkönyvtár nem hozható létre. </translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Hiba</translation>
     </message>
@@ -536,23 +354,18 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Űrlap</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Utolsó blokk ideje</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
-    <message>
-        <source>Open URI</source>
-        <translation>URI megnyitása</translation>
-    </message>
-    <message>
-        <source>Open payment request from URI or file</source>
-        <translation>Fizetési kérelem megnyitása URI azonosítóból vagy fájlból</translation>
-    </message>
-    <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
-    </message>
-    <message>
-        <source>Select payment request file</source>
-        <translation>Fizetési kérelmi fájl kiválasztása</translation>
-    </message>
     </context>
 <context>
     <name>OptionsDialog</name>
@@ -563,30 +376,6 @@
     <message>
         <source>&amp;Main</source>
         <translation>&amp;Fő</translation>
-    </message>
-    <message>
-        <source>Size of &amp;database cache</source>
-        <translation>A&amp;datbázis gyorsítótár mérete</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>MB</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside</source>
-        <translation>Külső kapcsolatok elfogadása</translation>
-    </message>
-    <message>
-        <source>Allow incoming connections</source>
-        <translation>Bejövő kapcsolatok engedélyezése</translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>A proxy IP címe (pl.: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
-    </message>
-    <message>
-        <source>Third party transaction URLs</source>
-        <translation>Harmadik fél tranzakció URL-ek</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -605,20 +394,12 @@
         <translation>T&amp;árca</translation>
     </message>
     <message>
-        <source>Expert</source>
-        <translation>Szakértő</translation>
-    </message>
-    <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>A Bitcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Bitcoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -631,18 +412,6 @@
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Proxy portja (pl.: 9050)</translation>
-    </message>
-    <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
-    </message>
-    <message>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
-    </message>
-    <message>
-        <source>Tor</source>
-        <translation>Tor</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -689,16 +458,12 @@
         <translation>alapértelmezett</translation>
     </message>
     <message>
-        <source>none</source>
-        <translation>semmi</translation>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
         <translation>Beállítások törlésének jóváhagyása.</translation>
-    </message>
-    <message>
-        <source>Client restart required to activate changes.</source>
-        <translation>A változtatások aktiválásahoz újra kell indítani a klienst.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -716,20 +481,8 @@
         <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Bitcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
-        <source>Watch-only:</source>
-        <translation>Csak megfigyelés</translation>
-    </message>
-    <message>
-        <source>Available:</source>
-        <translation>Elérhető:</translation>
-    </message>
-    <message>
         <source>Your current spendable balance</source>
         <translation>Jelenlegi egyenleg</translation>
-    </message>
-    <message>
-        <source>Pending:</source>
-        <translation>Küldés:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
@@ -744,10 +497,6 @@
         <translation>Bányászott egyenleg amely még nem érett be.</translation>
     </message>
     <message>
-        <source>Balances</source>
-        <translation>Egyenlegek</translation>
-    </message>
-    <message>
         <source>Total:</source>
         <translation>Összesen:</translation>
     </message>
@@ -755,29 +504,13 @@
         <source>Your current total balance</source>
         <translation>Aktuális egyenleged</translation>
     </message>
-    <message>
-        <source>Spendable:</source>
-        <translation>Elkölthető:</translation>
-    </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>A legutóbbi tranzakciók</translation>
-    </message>
     </context>
 <context>
     <name>PaymentServer</name>
     </context>
 <context>
     <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Ping idő</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -785,36 +518,24 @@
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Ad meg egy Bitcoin címet (pl: %1)</translation>
-    </message>
-    <message>
-        <source>%1 d</source>
-        <translation>%1 n</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 ó</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 p</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 mp</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Semmi</translation>
-    </message>
-    <message>
         <source>N/A</source>
         <translation>Nem elérhető</translation>
     </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n óra</numerusform><numerusform>%n óra</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n nap</numerusform><numerusform>%n nap</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n hét</numerusform><numerusform>%n hét</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n év</numerusform><numerusform>%n év</numerusform></translation>
     </message>
 </context>
 <context>
@@ -839,24 +560,12 @@
         <translation>Debug ablak</translation>
     </message>
     <message>
-        <source>General</source>
-        <translation>Általános</translation>
-    </message>
-    <message>
-        <source>Using BerkeleyDB version</source>
-        <translation>Használt BerkeleyDB verzió</translation>
-    </message>
-    <message>
         <source>Startup time</source>
         <translation>Bekapcsolás ideje</translation>
     </message>
     <message>
         <source>Network</source>
         <translation>Hálózat</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Név</translation>
     </message>
     <message>
         <source>Number of connections</source>
@@ -871,56 +580,8 @@
         <translation>Aktuális blokkok száma</translation>
     </message>
     <message>
-        <source>Memory usage</source>
-        <translation>Memóriahasználat</translation>
-    </message>
-    <message>
-        <source>Received</source>
-        <translation>Fogadott</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Küldött</translation>
-    </message>
-    <message>
-        <source>&amp;Peers</source>
-        <translation>&amp;Peerek</translation>
-    </message>
-    <message>
-        <source>Banned peers</source>
-        <translation>Kitiltott felek</translation>
-    </message>
-    <message>
-        <source>Select a peer to view detailed information.</source>
-        <translation>Peer kijelölése a részletes információkért</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Verzió</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Szolgáltatások</translation>
-    </message>
-    <message>
-        <source>Connection Time</source>
-        <translation>Csatlakozás ideje</translation>
-    </message>
-    <message>
-        <source>Last Send</source>
-        <translation>Legutóbbi küldés</translation>
-    </message>
-    <message>
-        <source>Last Receive</source>
-        <translation>Legutóbbi fogadás</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Ping idő</translation>
+        <source>Wallet: </source>
+        <translation type="unfinished">Tárca: </translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -935,56 +596,12 @@
         <translation>&amp;Konzol</translation>
     </message>
     <message>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Hálózati forgalom</translation>
-    </message>
-    <message>
-        <source>&amp;Clear</source>
-        <translation>&amp;Törlés</translation>
-    </message>
-    <message>
-        <source>Totals</source>
-        <translation>Összesen:</translation>
-    </message>
-    <message>
-        <source>In:</source>
-        <translation>Be:</translation>
-    </message>
-    <message>
-        <source>Out:</source>
-        <translation>Ki:</translation>
-    </message>
-    <message>
         <source>Debug log file</source>
         <translation>Debug naplófájl</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Konzol törlése</translation>
-    </message>
-    <message>
-        <source>Ban Node for</source>
-        <translation>Kitiltás oka</translation>
-    </message>
-    <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;óra</translation>
-    </message>
-    <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;nap</translation>
-    </message>
-    <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;hét</translation>
-    </message>
-    <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;év</translation>
-    </message>
-    <message>
-        <source>&amp;Unban Node</source>
-        <translation>Kitiltás &amp;feloldása</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -994,51 +611,7 @@
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Írd be azt, hogy &lt;b&gt;help&lt;/b&gt; az elérhető parancsok áttekintéséhez.</translation>
     </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 KB</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GB</translation>
-    </message>
-    <message>
-        <source>via %1</source>
-        <translation>%1 által</translation>
-    </message>
-    <message>
-        <source>never</source>
-        <translation>soha</translation>
-    </message>
-    <message>
-        <source>Inbound</source>
-        <translation>Bejövő</translation>
-    </message>
-    <message>
-        <source>Outbound</source>
-        <translation>Kimenő</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>Igen</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Nem</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Ismeretlen</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -1049,60 +622,32 @@
         <source>&amp;Label:</source>
         <translation>Címke:</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>&amp;Üzenet:</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Minden mező törlése</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <translation>Törlés</translation>
-    </message>
-    <message>
-        <source>Requested payments history</source>
-        <translation>A kért kifizetések története</translation>
-    </message>
-    <message>
-        <source>&amp;Request payment</source>
-        <translation>&amp;Fizetés kérése</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation>Mutat</translation>
-    </message>
-    <message>
-        <source>Remove the selected entries from the list</source>
-        <translation>A kijelölt elemek törlése a listáról</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Eltávolítás</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>QR Code</source>
-        <translation>QR kód</translation>
+        <source>Address</source>
+        <translation>Cím</translation>
     </message>
     <message>
-        <source>Copy &amp;URI</source>
-        <translation>&amp;URI másolása</translation>
+        <source>Amount</source>
+        <translation>Összeg</translation>
     </message>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Cím másolása</translation>
-    </message>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Kép mentése</translation>
+        <source>Label</source>
+        <translation>Címke</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dátum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Címke</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1111,76 +656,8 @@
         <translation>Érmék küldése</translation>
     </message>
     <message>
-        <source>Inputs...</source>
-        <translation>Bemenetek...</translation>
-    </message>
-    <message>
-        <source>automatically selected</source>
-        <translation>automatikusan kiválasztva</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Fedezethiány!</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Mennyiség:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bájtok:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Összeg:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioritás:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Díjak:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Utólagos díj:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Visszajáró:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Tranzakciós díj</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>Válassz...</translation>
-    </message>
-    <message>
-        <source>per kilobyte</source>
-        <translation>kilobájtonként</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Elrejtés</translation>
-    </message>
-    <message>
-        <source>Recommended:</source>
-        <translation>Ajánlott:</translation>
-    </message>
-    <message>
-        <source>Custom:</source>
-        <translation>Egyéni:</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>normál</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>gyors</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1189,14 +666,6 @@
     <message>
         <source>Add &amp;Recipient</source>
         <translation>&amp;Címzett hozzáadása</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Minden mező törlése</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Por-határ:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1230,10 +699,6 @@
         <translation>Címke:</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Válassz egy korábban már használt címet</translation>
-    </message>
-    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1246,20 +711,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Remove this entry</source>
-        <translation>Ez a bejegyzés eltávolítása</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Üzenet:</translation>
-    </message>
-    <message>
         <source>Pay To:</source>
         <translation>Címzett:</translation>
-    </message>
-    <message>
-        <source>Memo:</source>
-        <translation>Jegyzet:</translation>
     </message>
     </context>
 <context>
@@ -1267,11 +720,7 @@
     </context>
 <context>
     <name>ShutdownWindow</name>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Ne állítsd le a számítógépet amíg ez az ablak el nem tűnik.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
@@ -1281,10 +730,6 @@
     <message>
         <source>&amp;Sign Message</source>
         <translation>Üzenet aláírása...</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Válassz egy korábban már használt címet</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1340,13 +785,17 @@
 </context>
 <context>
     <name>TrafficGraphWidget</name>
-    <message>
-        <source>KB/s</source>
-        <translation>KB/s</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Dátum</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Összeg</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1357,9 +806,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dátum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Címke</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Megerősítve</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dátum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Címke</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cím</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1369,9 +842,25 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Érmék küldése</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Exportálás</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Jelenlegi nézet exportálása fájlba</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Biztonsági másolat készítése a Tárcáról</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -1416,10 +905,6 @@
         <translation>Parancs, amit akkor hajt végre, amikor egy tárca-tranzakció megváltozik  (%s a parancsban lecserélődik a blokk TxID-re)</translation>
     </message>
     <message>
-        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>UPnP használata porttovábbításra (alapértelmezett: 1, amikor kiszolgál és nem használt a -proxy)</translation>
-    </message>
-    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Csatlakozás csak a megadott csomóponthoz</translation>
     </message>
@@ -1456,16 +941,8 @@
         <translation>Egyik hálózati porton sem sikerül hallgatni. Használja a -listen=0 kapcsolót, ha ezt szeretné.</translation>
     </message>
     <message>
-        <source>Importing...</source>
-        <translation>Importálás</translation>
-    </message>
-    <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Helytelen vagy nemlétező genézis blokk. Helytelen hálózati adatkönyvtár?</translation>
-    </message>
-    <message>
-        <source>Loading banlist...</source>
-        <translation>Tiltólista betöltése...</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
@@ -1480,26 +957,6 @@
         <translation>Tárca ellenőrzése...</translation>
     </message>
     <message>
-        <source>Wallet options:</source>
-        <translation>Tárca beállítások:</translation>
-    </message>
-    <message>
-        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Saját IP-cím felfedezése (alapértelmezett: 1, amikor kiszolgál és nem használt a -externalip)</translation>
-    </message>
-    <message>
-        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>A fehérlistán szereplő felek nem lesznek automatikusan kitiltva és a tranzakcióik is mindig továbbítva lesznek, akkor is ha már a megerősítésre váró listán (mempool) vannak. Hasznos például összekötő csomópontokon (gateway).</translation>
-    </message>
-    <message>
-        <source>(default: %u)</source>
-        <translation>(alapértelmezett: %u)</translation>
-    </message>
-    <message>
-        <source>Error reading from database, shutting down.</source>
-        <translation>Hiba az adatbázis olvasásakor, leállítás</translation>
-    </message>
-    <message>
         <source>Information</source>
         <translation>Információ</translation>
     </message>
@@ -1510,10 +967,6 @@
     <message>
         <source>Signing transaction failed</source>
         <translation>Tranzakció aláírása sikertelen</translation>
-    </message>
-    <message>
-        <source>This is experimental software.</source>
-        <translation>Ez egy kísérleti szoftver.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -1552,14 +1005,6 @@
     <message>
         <source>Loading addresses...</source>
         <translation>Címek betöltése...</translation>
-    </message>
-    <message>
-        <source>(default: %s)</source>
-        <translation>(alapértelmezett: %s)</translation>
-    </message>
-    <message>
-        <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>IP-címek megjelenítése a naplóban (alapértelmezett: %u)</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>

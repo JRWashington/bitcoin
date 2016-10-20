@@ -6,20 +6,8 @@
         <translation>Шинэ хаяг нээх</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Шинэ</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Одоогоор сонгогдсон байгаа хаягуудыг сануулах</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Хуулах</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>&amp;Хаах</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -40,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Шошго</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Хаяг</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -68,10 +64,6 @@
     <message>
         <source>Synchronizing with network...</source>
         <translation>Сүлжээтэй тааруулж байна...</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Нод</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -114,8 +106,8 @@
         <translation>&amp;Нууц Үгийг Солих...</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Хүлээн авах хаяг</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Түрүйвч:</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -132,6 +124,10 @@
     <message>
         <source>Wallet</source>
         <translation>Түрүйвч</translation>
+    </message>
+    <message>
+        <source>&amp;Send</source>
+        <translation type="unfinished">Яв&amp;уул</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -185,10 +181,6 @@
         <translation>Хэмжээ:</translation>
     </message>
     <message>
-        <source>Fee:</source>
-        <translation>Тѳлбѳр:</translation>
-    </message>
-    <message>
         <source>Amount</source>
         <translation>Хэмжээ</translation>
     </message>
@@ -238,6 +230,13 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Last block time</source>
+        <translation>Сүүлийн блокийн хугацаа</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -247,14 +246,6 @@
         <translation>Сонголтууд</translation>
     </message>
     <message>
-        <source>MB</source>
-        <translation>МБ</translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>проксигийн IP хаяг (жишээ нь: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
-    </message>
-    <message>
         <source>&amp;Network</source>
         <translation>Сүлжээ</translation>
     </message>
@@ -262,21 +253,9 @@
         <source>W&amp;allet</source>
         <translation>Түрүйвч</translation>
     </message>
-    <message>
-        <source>Client restart required to activate changes.</source>
-        <translation>Ѳѳрчлѳлтүүдийг идэвхижүүлхийн тулд клиентийг ахин эхлүүлэх шаардлагтай</translation>
-    </message>
-    <message>
-        <source>This change would require a client restart.</source>
-        <translation>Энэ ѳѳрчлѳлтийг оруулахын тулд кли1нт програмыг ахин эхлүүлэх шаардлагтай</translation>
-    </message>
     </context>
 <context>
     <name>OverviewPage</name>
-    <message>
-        <source>Available:</source>
-        <translation>Хэрэглэж болох хэмжээ:</translation>
-    </message>
     </context>
 <context>
     <name>PaymentServer</name>
@@ -313,16 +292,8 @@
         <translation>&amp;Мэдээллэл</translation>
     </message>
     <message>
-        <source>General</source>
-        <translation>Ерѳнхий</translation>
-    </message>
-    <message>
         <source>Network</source>
         <translation>Сүлжээ</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Нэр</translation>
     </message>
     <message>
         <source>Number of connections</source>
@@ -335,6 +306,10 @@
     <message>
         <source>Current number of blocks</source>
         <translation>Одоогийн блокийн тоо</translation>
+    </message>
+    <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">Түрүйвч: </translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -363,32 +338,32 @@
         <source>&amp;Label:</source>
         <translation>&amp;Шошго:</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>Зурвас:</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation>Харуул</translation>
-    </message>
-    <message>
-        <source>Remove the selected entries from the list</source>
-        <translation>Сонгогдсон ѳгѳгдлүүдийг устгах</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Устгах</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Хаягийг &amp;Хуулбарлах</translation>
+        <source>Address</source>
+        <translation>Хаяг</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Хэмжээ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Шошго</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Огноо</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Шошго</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -397,20 +372,8 @@
         <translation>Зоос явуулах</translation>
     </message>
     <message>
-        <source>automatically selected</source>
-        <translation>автоматаар сонгогдсон</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Таны дансны үлдэгдэл хүрэлцэхгүй байна!</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Хэмжээ:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Тѳлбѳр:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -464,10 +427,6 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Message:</source>
-        <translation>Зурвас:</translation>
-    </message>
-    <message>
         <source>Pay To:</source>
         <translation>Тѳлѳх хаяг:</translation>
     </message>
@@ -477,11 +436,7 @@
     </context>
 <context>
     <name>ShutdownWindow</name>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Энэ цонхыг хаагдтал компьютерээ бүү унтраагаарай</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
@@ -509,6 +464,14 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Огноо</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Хэмжээ</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -519,9 +482,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Огноо</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Шошго</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Баталгаажлаа</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Огноо</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Шошго</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Хаяг</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -531,19 +518,31 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Зоос явуулах</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Экспортдлох</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Сонгогдсон таб дээрхи дата-г экспортлох</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation type="unfinished">Түрүйвчийг Жоорлох</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Сонголтууд:</translation>
-    </message>
-    <message>
-        <source>Wallet options:</source>
-        <translation>Түрүйвчийн сонголтууд:</translation>
     </message>
     <message>
         <source>Information</source>

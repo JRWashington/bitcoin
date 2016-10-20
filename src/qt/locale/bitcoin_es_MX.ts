@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Click derecho para editar tu dirección o etiqueta</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Crear una dirección nueva</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Nuevo</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copiar la dirección seleccionada al portapapeles del sistema</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Copiar</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>Cerrar</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Dirección</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -66,10 +58,6 @@
     </context>
 <context>
     <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Máscara de red</translation>
-    </message>
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -84,10 +72,6 @@
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Vista previa</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Nodo</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -134,16 +118,8 @@
         <translation>&amp;Cambiar contraseña...</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>Direcciones de &amp;envío...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Direcciones de &amp;recepción...</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>Abrir &amp;URL...</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Cartera:</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -210,10 +186,6 @@
         <translation>Pestañas</translation>
     </message>
     <message>
-        <source>&amp;Command-line options</source>
-        <translation>opciones de la &amp;Linea de comandos</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -253,32 +225,8 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Quantity:</source>
-        <translation>Cantidad</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Monto:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Cuota:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Después de los cargos por comisión. </translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Cambio</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -291,10 +239,6 @@
     <message>
         <source>Confirmed</source>
         <translation>Confirmado </translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Prioridad</translation>
     </message>
     </context>
 <context>
@@ -326,14 +270,6 @@
         <translation>versión</translation>
     </message>
     <message>
-        <source>(%1-bit)</source>
-        <translation>(%1-bit)</translation>
-    </message>
-    <message>
-        <source>Command-line options</source>
-        <translation>opciones de la Linea de comandos</translation>
-    </message>
-    <message>
         <source>Usage:</source>
         <translation>Uso:</translation>
     </message>
@@ -350,6 +286,13 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulario</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -359,16 +302,12 @@
         <translation>Opciones</translation>
     </message>
     <message>
-        <source>Active command-line options that override above options:</source>
-        <translation>Activar las opciones de linea de comando que sobre escriben las siguientes opciones:</translation>
-    </message>
-    <message>
         <source>W&amp;allet</source>
         <translation>Cartera</translation>
     </message>
     <message>
-        <source>none</source>
-        <translation>Ninguno </translation>
+        <source>Bitcoin Core</source>
+        <translation>nucleo Bitcoin</translation>
     </message>
     </context>
 <context>
@@ -397,8 +336,16 @@
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Información </translation>
+    </message>
+    <message>
         <source>Debug window</source>
         <translation>Depurar ventana</translation>
+    </message>
+    <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">Cartera: </translation>
     </message>
     </context>
 <context>
@@ -411,32 +358,32 @@
         <source>&amp;Label:</source>
         <translation>&amp;Etiqueta</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>Mensaje:</translation>
-    </message>
-    <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Bitcoin.</translation>
-    </message>
-    <message>
-        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Use este formulario para la solicitud de pagos. Todos los campos son &lt;b&gt;opcionales&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Monto opcional a solicitar. Dejarlo vacion o en cero no solicita un monto especifico.</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Copiar dirección</translation>
+        <source>Address</source>
+        <translation>Dirección</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Monto</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -445,36 +392,8 @@
         <translation>Enviar monedas</translation>
     </message>
     <message>
-        <source>Quantity:</source>
-        <translation>Cantidad</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Monto:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Cuota:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Después de los cargos por comisión. </translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Cambio</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>rápido</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -487,6 +406,10 @@
     <message>
         <source>Confirm the send action</source>
         <translation>Confirme la acción de enviar</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation type="unfinished">&amp;Enviar</translation>
     </message>
     </context>
 <context>
@@ -504,10 +427,6 @@
         <translation>&amp;Etiqueta</translation>
     </message>
     <message>
-        <source>This is a normal payment.</source>
-        <translation>Este es un pago normal</translation>
-    </message>
-    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -520,14 +439,6 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Remove this entry</source>
-        <translation>Quitar esta entrada</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Mensaje:</translation>
-    </message>
-    <message>
         <source>Pay To:</source>
         <translation>Pago para:</translation>
     </message>
@@ -537,11 +448,7 @@
     </context>
 <context>
     <name>ShutdownWindow</name>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>No apague su computadora hasta que esta ventana desaparesca.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
@@ -569,6 +476,14 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Monto</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -579,9 +494,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmado </translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Domicilio</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -591,9 +530,21 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Mandar monedas</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Exportar</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportar la información en la tabla actual a un archivo</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -606,20 +557,12 @@
         <translation>nucleo Bitcoin</translation>
     </message>
     <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;categoria&gt; puede ser:</translation>
-    </message>
-    <message>
         <source>Verifying blocks...</source>
         <translation>Verificando bloques...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
         <translation>Verificando cartera...</translation>
-    </message>
-    <message>
-        <source>Wallet options:</source>
-        <translation>Opciones de cartera:</translation>
     </message>
     <message>
         <source>Information</source>

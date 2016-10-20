@@ -16,6 +16,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>पता</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -73,6 +81,10 @@
     <message>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;बैकप वॉलेट</translation>
+    </message>
+    <message>
+        <source>Wallet:</source>
+        <translation type="unfinished">वॉलेट:</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -195,6 +207,13 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>फार्म</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -255,6 +274,10 @@
         <source>&amp;Information</source>
         <translation>जानकारी</translation>
     </message>
+    <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">वॉलेट: </translation>
+    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -270,12 +293,28 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;पता कॉपी करे</translation>
+        <source>Address</source>
+        <translation>पता</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -368,6 +407,14 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -378,9 +425,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>पक्का</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>पता</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -390,9 +461,17 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>सिक्के भेजें|</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>बैकप वॉलेट</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

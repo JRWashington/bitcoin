@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Double cliquez afin de modifier l'adresse ou l'étiquette</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Créer une nouvelle adresse</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Nouveau</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copier l'adresse surlignée dans votre presse-papiers</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Copie</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>F&amp;ermer</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Étiquette</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -66,15 +58,7 @@
     </context>
 <context>
     <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Masque de sous réseau</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Banni jusque </translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -88,10 +72,6 @@
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Vue d'ensemble</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Nœud</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -114,14 +94,6 @@
         <translation>Quitter l'application</translation>
     </message>
     <message>
-        <source>&amp;About %1</source>
-        <translation>&amp;À propos de %1</translation>
-    </message>
-    <message>
-        <source>Show information about %1</source>
-        <translation>Afficher les informations sur %1</translation>
-    </message>
-    <message>
         <source>About &amp;Qt</source>
         <translation>À propos de &amp;Qt</translation>
     </message>
@@ -132,10 +104,6 @@
     <message>
         <source>&amp;Options...</source>
         <translation>&amp;Options...</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for %1</source>
-        <translation>Modifier les options de configuration pour %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -150,16 +118,8 @@
         <translation>&amp;Modifier le mot de passe</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Adresses d'envoi</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Adresses de réception</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>Ouvrir &amp;URI</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Portefeuille:</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -237,53 +197,13 @@
         <source>Tabs toolbar</source>
         <translation>Barre d'outils des onglets</translation>
     </message>
-    <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et bitcoin: URIs)</translation>
-    </message>
-    <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Ouvrir un bitcoin: URI ou demande de paiement</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>&amp;Options de ligne de commande</translation>
-    </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n connexion active au réseau Bitcoin</numerusform><numerusform>%n connexions actives au réseau Bitcoin</numerusform></translation>
     </message>
     <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Indexation des blocs sur le disque...</translation>
-    </message>
-    <message>
         <source>No block source available...</source>
         <translation>Aucun bloc source disponible</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n heure</numerusform><numerusform>%n heures</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n jour</numerusform><numerusform>%n jours</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n semaine</numerusform><numerusform>%n semaines</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 et %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n an</numerusform><numerusform>%n années</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -314,42 +234,8 @@
         <translation>À jour</translation>
     </message>
     <message>
-        <source>%1 client</source>
-        <translation>%1 client</translation>
-    </message>
-    <message>
         <source>Catching up...</source>
         <translation>Rattrapage...</translation>
-    </message>
-    <message>
-        <source>Date: %1
-</source>
-        <translation>Date: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Montant:%1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Type: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Étiquette: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Adresse: %1
-</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -371,80 +257,20 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Selection</source>
-        <translation>Sélection de pièce </translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantité:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Octets:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Montant :</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorité:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Frais:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Poussière: </translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Après frais:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Change:</translation>
-    </message>
-    <message>
-        <source>(un)select all</source>
-        <translation>(dé)sélectionné tout:</translation>
-    </message>
-    <message>
-        <source>Tree mode</source>
-        <translation>Mode arbre</translation>
-    </message>
-    <message>
-        <source>List mode</source>
-        <translation>Mode list</translation>
     </message>
     <message>
         <source>Amount</source>
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Received with label</source>
-        <translation>Reçu avec : </translation>
-    </message>
-    <message>
-        <source>Received with address</source>
-        <translation>Reçue avec l'adresse</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Date</translation>
     </message>
     <message>
-        <source>Confirmations</source>
-        <translation>Confirmations</translation>
-    </message>
-    <message>
         <source>Confirmed</source>
         <translation>Confirmée</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Priorité</translation>
     </message>
     </context>
 <context>
@@ -488,32 +314,12 @@
         <translation>version</translation>
     </message>
     <message>
-        <source>(%1-bit)</source>
-        <translation>(%1-bit)</translation>
-    </message>
-    <message>
-        <source>About %1</source>
-        <translation>A propos %1</translation>
-    </message>
-    <message>
-        <source>Command-line options</source>
-        <translation>Options de ligne de commande</translation>
-    </message>
-    <message>
         <source>Usage:</source>
         <translation>Utilisation :</translation>
     </message>
     <message>
         <source>command-line options</source>
         <translation>Options de ligne de commande</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>Options interface graphique:</translation>
-    </message>
-    <message>
-        <source>Start minimized</source>
-        <translation>Démarrer sous forme minimisée</translation>
     </message>
     </context>
 <context>
@@ -523,20 +329,12 @@
         <translation>Bienvenue </translation>
     </message>
     <message>
-        <source>Welcome to %1.</source>
-        <translation>Bienvenue sur %1.</translation>
-    </message>
-    <message>
         <source>Use the default data directory</source>
         <translation>Utiliser le répertoire par défaut </translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
         <translation>Utiliser votre propre répertoire</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Erreur: Le répertoire de données "%1" n'a pas pu être créé. </translation>
     </message>
     <message>
         <source>Error</source>
@@ -552,23 +350,14 @@
     </message>
 </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulaire</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
-    <message>
-        <source>Open URI</source>
-        <translation>Ouvrir URI</translation>
-    </message>
-    <message>
-        <source>Open payment request from URI or file</source>
-        <translation>Ouvrir une demande de paiement depuis une URI ou un fichier</translation>
-    </message>
-    <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
-    </message>
-    <message>
-        <source>Select payment request file</source>
-        <translation>Sélectionner un fichier de demande de paiement</translation>
-    </message>
     </context>
 <context>
     <name>OptionsDialog</name>
@@ -579,26 +368,6 @@
     <message>
         <source>&amp;Main</source>
         <translation>&amp;Principal</translation>
-    </message>
-    <message>
-        <source>Size of &amp;database cache</source>
-        <translation>Taille du cache de la base de données.</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>MO</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside</source>
-        <translation>Accepter les connexions venant de l'extérieur</translation>
-    </message>
-    <message>
-        <source>Allow incoming connections</source>
-        <translation>Autoriser les connexions entrantes</translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Adresse IP du proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -613,8 +382,8 @@
         <translation>&amp;Réseau</translation>
     </message>
     <message>
-        <source>Expert</source>
-        <translation>Expert</translation>
+        <source>W&amp;allet</source>
+        <translation>&amp;Portefeuille</translation>
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -637,32 +406,8 @@
         <translation>Port du proxy (e.g. 9050)</translation>
     </message>
     <message>
-        <source>Used for reaching peers via:</source>
-        <translation>Utilisé pour contacter des pairs via:</translation>
-    </message>
-    <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
-    </message>
-    <message>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
-    </message>
-    <message>
-        <source>Tor</source>
-        <translation>Tor</translation>
-    </message>
-    <message>
         <source>&amp;Window</source>
         <translation>&amp;Fenêtre</translation>
-    </message>
-    <message>
-        <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Cacher l'icône dans la zone de notification.</translation>
-    </message>
-    <message>
-        <source>Hide tray icon</source>
-        <translation>Cacher l'icône de la zone de notification</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
@@ -693,20 +438,12 @@
         <translation>defaut</translation>
     </message>
     <message>
-        <source>none</source>
-        <translation>aucun</translation>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
         <translation>Confirmer les options de réinitialisation </translation>
-    </message>
-    <message>
-        <source>Client restart required to activate changes.</source>
-        <translation>Redémarrage du client nécessaire pour activer les changements.</translation>
-    </message>
-    <message>
-        <source>This change would require a client restart.</source>
-        <translation>Ce changement nécessiterait un redémarrage du client.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -720,24 +457,8 @@
         <translation>Formulaire</translation>
     </message>
     <message>
-        <source>Watch-only:</source>
-        <translation>Regarder seulement:</translation>
-    </message>
-    <message>
-        <source>Available:</source>
-        <translation>Disponible: </translation>
-    </message>
-    <message>
-        <source>Pending:</source>
-        <translation>En attente:</translation>
-    </message>
-    <message>
         <source>Immature:</source>
         <translation>Immature:</translation>
-    </message>
-    <message>
-        <source>Balances</source>
-        <translation>Balances</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -747,33 +468,13 @@
         <source>Your current total balance</source>
         <translation>Votre balance totale courante</translation>
     </message>
-    <message>
-        <source>Spendable:</source>
-        <translation>Dépensable: </translation>
-    </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>Transactions récentes </translation>
-    </message>
     </context>
 <context>
     <name>PaymentServer</name>
     </context>
 <context>
     <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <translation>Agent Utilisateur</translation>
-    </message>
-    <message>
-        <source>Node/Service</source>
-        <translation>Nœud/Service </translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Temps du ping</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -781,36 +482,24 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Entrer une adresse Bitcoin (e.g. %1)</translation>
-    </message>
-    <message>
-        <source>%1 d</source>
-        <translation>%1 j</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Aucun</translation>
-    </message>
-    <message>
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n heure</numerusform><numerusform>%n heures</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n jour</numerusform><numerusform>%n jours</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n semaine</numerusform><numerusform>%n semaines</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n an</numerusform><numerusform>%n années</numerusform></translation>
     </message>
 </context>
 <context>
@@ -835,24 +524,12 @@
         <translation>Fenêtre de débogage </translation>
     </message>
     <message>
-        <source>General</source>
-        <translation>Général</translation>
-    </message>
-    <message>
-        <source>Using BerkeleyDB version</source>
-        <translation>Version BerkeleyDButilisée </translation>
-    </message>
-    <message>
         <source>Startup time</source>
         <translation>Le temps de démarrage</translation>
     </message>
     <message>
         <source>Network</source>
         <translation>Réseau</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Nom</translation>
     </message>
     <message>
         <source>Number of connections</source>
@@ -867,84 +544,8 @@
         <translation>Nombre courant de blocs</translation>
     </message>
     <message>
-        <source>Memory Pool</source>
-        <translation>Mémoire du pool</translation>
-    </message>
-    <message>
-        <source>Current number of transactions</source>
-        <translation>Nombre courant de transactions</translation>
-    </message>
-    <message>
-        <source>Memory usage</source>
-        <translation>Usage de la mémoire</translation>
-    </message>
-    <message>
-        <source>Received</source>
-        <translation>Reçu </translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Envoyé</translation>
-    </message>
-    <message>
-        <source>&amp;Peers</source>
-        <translation>&amp;Pairs</translation>
-    </message>
-    <message>
-        <source>Banned peers</source>
-        <translation>Pairs bannis</translation>
-    </message>
-    <message>
-        <source>Whitelisted</source>
-        <translation>Autorisé par la liste</translation>
-    </message>
-    <message>
-        <source>Direction</source>
-        <translation>Direction</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Version</translation>
-    </message>
-    <message>
-        <source>Starting Block</source>
-        <translation>Bloc de départ</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>Blocs Synchronisés </translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>Agent Utilisateur</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Services</translation>
-    </message>
-    <message>
-        <source>Ban Score</source>
-        <translation>Score de ban</translation>
-    </message>
-    <message>
-        <source>Connection Time</source>
-        <translation>Temps de connexion</translation>
-    </message>
-    <message>
-        <source>Last Send</source>
-        <translation>Dernier envoyé</translation>
-    </message>
-    <message>
-        <source>Last Receive</source>
-        <translation>Dernier reçu</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Temps du ping</translation>
-    </message>
-    <message>
-        <source>Ping Wait</source>
-        <translation>Attente du ping</translation>
+        <source>Wallet: </source>
+        <translation type="unfinished">Portefeuille: </translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -955,26 +556,6 @@
         <translation>&amp;Console</translation>
     </message>
     <message>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Trafic réseau</translation>
-    </message>
-    <message>
-        <source>&amp;Clear</source>
-        <translation>&amp;Nettoyer</translation>
-    </message>
-    <message>
-        <source>Totals</source>
-        <translation>Totaux</translation>
-    </message>
-    <message>
-        <source>In:</source>
-        <translation>Entrée:</translation>
-    </message>
-    <message>
-        <source>Out:</source>
-        <translation>Sortie:</translation>
-    </message>
-    <message>
         <source>Debug log file</source>
         <translation>Fichier du journal de débogage</translation>
     </message>
@@ -982,59 +563,7 @@
         <source>Clear console</source>
         <translation>Nettoyer la console</translation>
     </message>
-    <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;heure</translation>
-    </message>
-    <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;jour</translation>
-    </message>
-    <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;semaine</translation>
-    </message>
-    <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;an</translation>
-    </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 O</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 KO</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MO</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GO</translation>
-    </message>
-    <message>
-        <source>via %1</source>
-        <translation>via %1</translation>
-    </message>
-    <message>
-        <source>never</source>
-        <translation>jamais</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>Oui</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Non</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Inconnu</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -1045,56 +574,32 @@
         <source>&amp;Label:</source>
         <translation>&amp;Étiquette :</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>Message :</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Nettoyer tous les champs du formulaire.</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <translation>Nettoyer</translation>
-    </message>
-    <message>
-        <source>Requested payments history</source>
-        <translation>Historique des demandes de paiements.</translation>
-    </message>
-    <message>
-        <source>&amp;Request payment</source>
-        <translation>&amp;Demande de paiement</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation>Montrer</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Retirer</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>QR Code</source>
-        <translation>QR Code</translation>
+        <source>Address</source>
+        <translation>Adresse</translation>
     </message>
     <message>
-        <source>Copy &amp;URI</source>
-        <translation>Copier &amp;URI</translation>
+        <source>Amount</source>
+        <translation>Montant</translation>
     </message>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Copier &amp;Adresse</translation>
-    </message>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Sauvegarder image</translation>
+        <source>Label</source>
+        <translation>Étiquette</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Date</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Étiquette</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1103,92 +608,12 @@
         <translation>Envoyer des pièces</translation>
     </message>
     <message>
-        <source>Inputs...</source>
-        <translation>Sorties...</translation>
-    </message>
-    <message>
-        <source>automatically selected</source>
-        <translation>Automatiquement sélectionné </translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Fonds insuffisants</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantité:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Octets:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Montant :</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Priorité:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Frais:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Après frais:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Change:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Frais de transaction</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>Choisir...</translation>
-    </message>
-    <message>
-        <source>per kilobyte</source>
-        <translation>par kilo octet</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Cacher</translation>
-    </message>
-    <message>
-        <source>total at least</source>
-        <translation>Au total au moins</translation>
-    </message>
-    <message>
-        <source>Recommended:</source>
-        <translation>Recommandé: </translation>
-    </message>
-    <message>
-        <source>Confirmation time:</source>
-        <translation>Temps de confirmation:</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>normal</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>rapide</translation>
-    </message>
-    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Envoyer des pièces à plusieurs destinataires à la fois</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Nettoyer tous les champs du formulaire.</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Poussière: </translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1201,6 +626,10 @@
     <message>
         <source>Confirm the send action</source>
         <translation>Confirmer l'action d'envoi</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation type="unfinished">&amp;Envoyer</translation>
     </message>
     </context>
 <context>
@@ -1218,14 +647,6 @@
         <translation>&amp;Étiquette :</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Choisir une adresse précédemment utilisée </translation>
-    </message>
-    <message>
-        <source>This is a normal payment.</source>
-        <translation>C'est un paiement normal.</translation>
-    </message>
-    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1238,20 +659,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Remove this entry</source>
-        <translation>Retirer cette entrée</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Message :</translation>
-    </message>
-    <message>
         <source>Pay To:</source>
         <translation>Payer à :</translation>
-    </message>
-    <message>
-        <source>Memo:</source>
-        <translation>Memo:</translation>
     </message>
     </context>
 <context>
@@ -1265,10 +674,6 @@
     <message>
         <source>&amp;Sign Message</source>
         <translation>&amp;Signer le message</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Choisir une adresse précédemment utilisée </translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1320,13 +725,21 @@
 </context>
 <context>
     <name>TrafficGraphWidget</name>
-    <message>
-        <source>KB/s</source>
-        <translation>KO/s</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Ouvert pour %n bloc de plus</numerusform><numerusform>Ouvert pour %n blocs de plus</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Date</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Montant</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1337,9 +750,37 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Date</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Étiquette</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Ouvert pour %n bloc de plus</numerusform><numerusform>Ouvert pour %n blocs de plus</numerusform></translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmée</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Date</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Étiquette</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1349,9 +790,25 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Envoyer des pièces</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Exporter...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exporter les données de l'onglet courant vers un fichier</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Sauvegarder le porte-monnaie</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -1376,33 +833,12 @@
         <translation>Fonctionner en arrière-plan en tant que démon et accepter les commandes</translation>
     </message>
     <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
-    </message>
-    <message>
         <source>Bitcoin Core</source>
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; peut être:</translation>
-    </message>
-    <message>
         <source>Block creation options:</source>
         <translation>Options de création de bloc:</translation>
-    </message>
-    <message>
-        <source>Connection options:</source>
-        <translation>Options de connexion:</translation>
-    </message>
-    <message>
-        <source>Debugging/Testing options:</source>
-        <translation>Options de débogage/test </translation>
-    </message>
-    <message>
-        <source>Importing...</source>
-        <translation>
-Importation ...</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -1413,28 +849,8 @@ Importation ...</translation>
         <translation>Vérification du portefeuille...</translation>
     </message>
     <message>
-        <source>Wallet options:</source>
-        <translation>Options du portefeuille:</translation>
-    </message>
-    <message>
-        <source>(default: %u)</source>
-        <translation>(défaut: %u)</translation>
-    </message>
-    <message>
-        <source>Connect through SOCKS5 proxy</source>
-        <translation>Connecté au travers du proxy SOCKS5</translation>
-    </message>
-    <message>
         <source>Information</source>
         <translation>Information</translation>
-    </message>
-    <message>
-        <source>Node relay options:</source>
-        <translation>Options du relais de nœud: </translation>
-    </message>
-    <message>
-        <source>RPC server options:</source>
-        <translation>Options de serveur RPC:</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -1445,20 +861,12 @@ Importation ...</translation>
         <translation>Transaction signée échouée</translation>
     </message>
     <message>
-        <source>This is experimental software.</source>
-        <translation>C'est un logiciel expérimental.</translation>
-    </message>
-    <message>
         <source>Transaction amount too small</source>
         <translation>Montant de la transaction trop bas</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
         <translation>Les montants de la transaction doivent être positif</translation>
-    </message>
-    <message>
-        <source>Transaction too large for fee policy</source>
-        <translation>Montant de la transaction trop élevé pour la politique de frais</translation>
     </message>
     <message>
         <source>Transaction too large</source>
@@ -1481,16 +889,8 @@ Importation ...</translation>
         <translation>Chargement des adresses...</translation>
     </message>
     <message>
-        <source>(default: %s)</source>
-        <translation>(défaut: %s)</translation>
-    </message>
-    <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Adresse -proxy invalide: '%s'</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: %s)</source>
-        <translation>Spécifier le pid du fichier (défaut: %s)</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

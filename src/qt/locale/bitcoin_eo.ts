@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Dekstre-klaku por redakti adreson aŭ etikedon</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Krei novan adreson</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Nova</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopii elektitan adreson al la tondejo</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopii</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>&amp;Fermi</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Etikedo</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreso</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -80,10 +72,6 @@
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Superrigardo</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Nodo</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -130,16 +118,8 @@
         <translation>Ŝanĝi &amp;Pasfrazon...</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Sendaj adresoj...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Ricevaj adresoj...</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>Malfermi &amp;URI-on...</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">Monujo:</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -222,48 +202,8 @@
         <translation>Langeto-breto</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso bitcoin:)</translation>
-    </message>
-    <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>Vidigi la liston de uzitaj sendaj adresoj kaj etikedoj</translation>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Malfermi bitcoin:-URI-on aŭ pagpeton</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>&amp;Komandliniaj agordaĵoj</translation>
-    </message>
-    <message>
         <source>No block source available...</source>
         <translation>Neniu fonto de blokoj trovebla...</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n horo</numerusform><numerusform>%n horoj</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n tago</numerusform><numerusform>%n tagoj</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n semajno</numerusform><numerusform>%n semajnoj</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 kaj %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n jaro</numerusform><numerusform>%n jaroj</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -298,36 +238,6 @@
         <translation>Ĝisdatigante...</translation>
     </message>
     <message>
-        <source>Date: %1
-</source>
-        <translation>Dato: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Sumo: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Tipo: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Etikedo: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Adreso: %1
-</translation>
-    </message>
-    <message>
         <source>Sent transaction</source>
         <translation>Sendita transakcio</translation>
     </message>
@@ -347,76 +257,20 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Quantity:</source>
-        <translation>Kvanto:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bajtoj:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Sumo:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioritato:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Krompago:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Polvo:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Post krompago:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Restmono:</translation>
-    </message>
-    <message>
-        <source>(un)select all</source>
-        <translation>(mal)elekti ĉion</translation>
-    </message>
-    <message>
-        <source>Tree mode</source>
-        <translation>Arboreĝimo</translation>
-    </message>
-    <message>
-        <source>List mode</source>
-        <translation>Listreĝimo</translation>
     </message>
     <message>
         <source>Amount</source>
         <translation>Sumo</translation>
     </message>
     <message>
-        <source>Received with label</source>
-        <translation>Ricevita kun etikedo</translation>
-    </message>
-    <message>
-        <source>Received with address</source>
-        <translation>Ricevita kun adreso</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Dato</translation>
     </message>
     <message>
-        <source>Confirmations</source>
-        <translation>Konfirmoj</translation>
-    </message>
-    <message>
         <source>Confirmed</source>
         <translation>Konfirmita</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Prioritato</translation>
     </message>
     </context>
 <context>
@@ -428,14 +282,6 @@
     <message>
         <source>&amp;Label</source>
         <translation>&amp;Etikedo</translation>
-    </message>
-    <message>
-        <source>The label associated with this address list entry</source>
-        <translation>La etikedo ligita al tiu ĉi adreslistero</translation>
-    </message>
-    <message>
-        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>La adreso ligita al tiu ĉi adreslistero. Eblas modifi tion nur por sendaj adresoj.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -472,20 +318,12 @@
         <translation>versio</translation>
     </message>
     <message>
-        <source>Command-line options</source>
-        <translation>Komandliniaj agordaĵoj</translation>
-    </message>
-    <message>
         <source>Usage:</source>
         <translation>Uzado:</translation>
     </message>
     <message>
         <source>command-line options</source>
         <translation>komandliniaj agordaĵoj</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>Uzantinterfaco ebloj:</translation>
     </message>
     </context>
 <context>
@@ -512,23 +350,18 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formularo</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Horo de la lasta bloko</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
-    <message>
-        <source>Open URI</source>
-        <translation>Malfermi URI-on</translation>
-    </message>
-    <message>
-        <source>Open payment request from URI or file</source>
-        <translation>Malfermi pagpeton el URI aŭ dosiero</translation>
-    </message>
-    <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
-    </message>
-    <message>
-        <source>Select payment request file</source>
-        <translation>Elektu la dosieron de la pagpeto</translation>
-    </message>
     </context>
 <context>
     <name>OptionsDialog</name>
@@ -539,22 +372,6 @@
     <message>
         <source>&amp;Main</source>
         <translation>Ĉ&amp;efa</translation>
-    </message>
-    <message>
-        <source>Size of &amp;database cache</source>
-        <translation>Dosiergrando de &amp;datumbasa kaŝmemoro</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>MB</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside</source>
-        <translation>Akcepti konektojn el ekstere</translation>
-    </message>
-    <message>
-        <source>Allow incoming connections</source>
-        <translation>Permesi envenantajn konektojn</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -571,10 +388,6 @@
     <message>
         <source>W&amp;allet</source>
         <translation>Monujo</translation>
-    </message>
-    <message>
-        <source>Expert</source>
-        <translation>Fakulo</translation>
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -595,14 +408,6 @@
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>la pordo de la prokurilo (ekz. 9050)</translation>
-    </message>
-    <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
-    </message>
-    <message>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -637,10 +442,6 @@
         <translation>Elekti la defaŭltan manieron por montri bitmonajn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
     </message>
     <message>
-        <source>Whether to show coin control features or not.</source>
-        <translation>Ĉu montri detalan adres-regilon, aŭ ne.</translation>
-    </message>
-    <message>
         <source>&amp;OK</source>
         <translation>&amp;Bone</translation>
     </message>
@@ -653,8 +454,8 @@
         <translation>defaŭlta</translation>
     </message>
     <message>
-        <source>none</source>
-        <translation>neniu</translation>
+        <source>Bitcoin Core</source>
+        <translation>Kerno de Bitmono</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
@@ -692,10 +493,6 @@
         <translation>Minita saldo, kiu ankoraŭ ne maturiĝis</translation>
     </message>
     <message>
-        <source>Balances</source>
-        <translation>Saldoj</translation>
-    </message>
-    <message>
         <source>Total:</source>
         <translation>Totalo:</translation>
     </message>
@@ -703,24 +500,12 @@
         <source>Your current total balance</source>
         <translation>via aktuala totala saldo</translation>
     </message>
-    <message>
-        <source>Spendable:</source>
-        <translation>Elspezebla:</translation>
-    </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>Lastaj transakcioj</translation>
-    </message>
     </context>
 <context>
     <name>PaymentServer</name>
     </context>
 <context>
     <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <translation>Uzanto Agento</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -729,22 +514,26 @@
         <translation>Sumo</translation>
     </message>
     <message>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Neniu</translation>
-    </message>
-    <message>
         <source>N/A</source>
         <translation>neaplikebla</translation>
     </message>
-    </context>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n horo</numerusform><numerusform>%n horoj</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n tago</numerusform><numerusform>%n tagoj</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n semajno</numerusform><numerusform>%n semajnoj</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n jaro</numerusform><numerusform>%n jaroj</numerusform></translation>
+    </message>
+</context>
 <context>
     <name>QRImageWidget</name>
     </context>
@@ -767,20 +556,12 @@
         <translation>Sencimiga fenestro</translation>
     </message>
     <message>
-        <source>General</source>
-        <translation>Ĝenerala</translation>
-    </message>
-    <message>
         <source>Startup time</source>
         <translation>Horo de lanĉo</translation>
     </message>
     <message>
         <source>Network</source>
         <translation>Reto</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Nomo</translation>
     </message>
     <message>
         <source>Number of connections</source>
@@ -795,32 +576,8 @@
         <translation>Aktuala nombro de blokoj</translation>
     </message>
     <message>
-        <source>Received</source>
-        <translation>Ricevita</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Sendita</translation>
-    </message>
-    <message>
-        <source>&amp;Peers</source>
-        <translation>&amp;Samuloj</translation>
-    </message>
-    <message>
-        <source>Banned peers</source>
-        <translation>Malpermesita samuloj.</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Versio</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>Uzanto Agento</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Servoj</translation>
+        <source>Wallet: </source>
+        <translation type="unfinished">Monujo: </translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -833,26 +590,6 @@
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Konzolo</translation>
-    </message>
-    <message>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Reta Trafiko</translation>
-    </message>
-    <message>
-        <source>&amp;Clear</source>
-        <translation>&amp;Forigi ĉion</translation>
-    </message>
-    <message>
-        <source>Totals</source>
-        <translation>Totaloj</translation>
-    </message>
-    <message>
-        <source>In:</source>
-        <translation>En:</translation>
-    </message>
-    <message>
-        <source>Out:</source>
-        <translation>El:</translation>
     </message>
     <message>
         <source>Debug log file</source>
@@ -870,22 +607,6 @@
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Tajpu &lt;b&gt;help&lt;/b&gt; por superrigardo de la disponeblaj komandoj.</translation>
     </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 KB</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GB</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -897,60 +618,32 @@
         <source>&amp;Label:</source>
         <translation>&amp;Etikedo:</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>&amp;Mesaĝo:</translation>
-    </message>
-    <message>
-        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>Reuzi unu el la jam uzitaj ricevaj adresoj. Reuzo de adresoj povas krei problemojn pri sekureco kaj privateco. Ne uzu tiun ĉi funkcion krom por rekrei antaŭe faritan pagopeton.</translation>
-    </message>
-    <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>R&amp;euzi ekzistantan ricevan adreson (malrekomendinda)</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Malplenigi ĉiujn kampojn de la formularo.</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <translation>Forigi</translation>
-    </message>
-    <message>
-        <source>&amp;Request payment</source>
-        <translation>&amp;Peti pagon</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation>Vidigi</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Forigi</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>QR Code</source>
-        <translation>QR-kodo</translation>
+        <source>Address</source>
+        <translation>Adreso</translation>
     </message>
     <message>
-        <source>Copy &amp;URI</source>
-        <translation>Kopii &amp;URI</translation>
+        <source>Amount</source>
+        <translation>Sumo</translation>
     </message>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Kopii &amp;Adreson</translation>
-    </message>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Konservi Bildon...</translation>
+        <source>Label</source>
+        <translation>Etikedo</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dato</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etikedo</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -959,48 +652,8 @@
         <translation>Sendi Bitmonon</translation>
     </message>
     <message>
-        <source>Coin Control Features</source>
-        <translation>Monregaj Opcioj</translation>
-    </message>
-    <message>
-        <source>Inputs...</source>
-        <translation>Enigoj...</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Nesufiĉa mono!</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Kvanto:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bajtoj:</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Sumo:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioritato:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Krompago:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Post krompago:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Restmono:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Krompago:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1009,14 +662,6 @@
     <message>
         <source>Add &amp;Recipient</source>
         <translation>Aldoni &amp;Ricevonton</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Malplenigi ĉiujn kampojn de la formularo.</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Polvo:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1050,14 +695,6 @@
         <translation>&amp;Etikedo:</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Elektu la jam uzitan adreson</translation>
-    </message>
-    <message>
-        <source>This is a normal payment.</source>
-        <translation>Tio estas normala pago.</translation>
-    </message>
-    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1070,24 +707,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Remove this entry</source>
-        <translation>Forigu ĉi tiun enskribon</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Mesaĝo:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Tajpu etikedon por tiu ĉi adreso por aldoni ĝin al la listo de uzitaj adresoj</translation>
-    </message>
-    <message>
         <source>Pay To:</source>
         <translation>Pagi Al:</translation>
-    </message>
-    <message>
-        <source>Memo:</source>
-        <translation>Memorando:</translation>
     </message>
     </context>
 <context>
@@ -1095,11 +716,7 @@
     </context>
 <context>
     <name>ShutdownWindow</name>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Ne sistemfermu ĝis ĉi tiu fenestro malaperas.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
@@ -1109,10 +726,6 @@
     <message>
         <source>&amp;Sign Message</source>
         <translation>&amp;Subskribi Mesaĝon</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Elektu la jam uzitan adreson</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1180,13 +793,17 @@
 </context>
 <context>
     <name>TrafficGraphWidget</name>
-    <message>
-        <source>KB/s</source>
-        <translation>KB/s</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Dato</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Sumo</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1197,9 +814,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dato</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etikedo</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Konfirmita</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dato</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etikedo</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreso</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1209,9 +850,25 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Sendi Bitmonon</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Eksporti</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Eksporti la datumojn el la aktuala langeto al dosiero</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Krei sekurkopion de monujo</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -1268,10 +925,6 @@
         <translation>Averto: ŝajne ni ne tute konsentas kun niaj samtavolanoj! Eble vi devas ĝisdatigi vian klienton, aŭ eble aliaj nodoj faru same.</translation>
     </message>
     <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; povas esti:</translation>
-    </message>
-    <message>
         <source>Block creation options:</source>
         <translation>Blok-kreaj agordaĵoj:</translation>
     </message>
@@ -1316,10 +969,6 @@
         <translation>Geneza bloko aŭ netrovita aŭ neĝusta. Ĉu eble la datadir de la reto malĝustas?</translation>
     </message>
     <message>
-        <source>Invalid -onion address: '%s'</source>
-        <translation>Nevalida -onion-adreso: '%s'</translation>
-    </message>
-    <message>
         <source>Not enough file descriptors available.</source>
         <translation>Nesufiĉa nombro de dosierpriskribiloj disponeblas.</translation>
     </message>
@@ -1340,10 +989,6 @@
         <translation>Monujo %s troviĝas ekster la dosierujo por datumoj %s</translation>
     </message>
     <message>
-        <source>Wallet options:</source>
-        <translation>Monujaj opcioj:</translation>
-    </message>
-    <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Plenumi komandon kiam rilata alerto riceviĝas, aŭ kiam ni vidas tre longan forkon (%s en cms anstataŭiĝas per mesaĝo)</translation>
     </message>
@@ -1362,10 +1007,6 @@
     <message>
         <source>Signing transaction failed</source>
         <translation>Subskriba transakcio fiaskis</translation>
-    </message>
-    <message>
-        <source>This is experimental software.</source>
-        <translation>ĝi estas eksperimenta programo</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>

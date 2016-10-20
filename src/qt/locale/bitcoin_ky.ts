@@ -12,6 +12,10 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Address</source>
+        <translation>Дарек</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -26,6 +30,10 @@
         <translation>&amp;Транзакциялар</translation>
     </message>
     <message>
+        <source>Wallet:</source>
+        <translation type="unfinished">Капчык:</translation>
+    </message>
+    <message>
         <source>&amp;Verify message...</source>
         <translation>Билдирүүнү &amp;текшерүү...</translation>
     </message>
@@ -36,6 +44,10 @@
     <message>
         <source>Wallet</source>
         <translation>Капчык</translation>
+    </message>
+    <message>
+        <source>&amp;Send</source>
+        <translation type="unfinished">&amp;Жөнөтүү</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -94,14 +106,13 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
     <name>OptionsDialog</name>
-    <message>
-        <source>MB</source>
-        <translation>МБ</translation>
-    </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Тармак</translation>
@@ -130,10 +141,6 @@
         <source>default</source>
         <translation>жарыяланбаган</translation>
     </message>
-    <message>
-        <source>none</source>
-        <translation>жок</translation>
-    </message>
     </context>
 <context>
     <name>OverviewPage</name>
@@ -157,16 +164,12 @@
         <translation>Маалымат</translation>
     </message>
     <message>
-        <source>General</source>
-        <translation>Жалпы</translation>
-    </message>
-    <message>
         <source>Network</source>
         <translation>&amp;Тармак</translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>Аты</translation>
+        <source>Wallet: </source>
+        <translation type="unfinished">Капчык: </translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -183,16 +186,20 @@
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>Билдирүү:</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Дарек</translation>
+    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -210,10 +217,6 @@
     <message>
         <source>Paste address from clipboard</source>
         <translation>Даректи алмашуу буферинен коюу</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Билдирүү:</translation>
     </message>
     </context>
 <context>
@@ -241,15 +244,31 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Дарек</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>

@@ -28,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -110,6 +118,10 @@
         <translation>&amp;Muta tesseram...</translation>
     </message>
     <message>
+        <source>Wallet:</source>
+        <translation type="unfinished">Cassidile:</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
@@ -188,10 +200,6 @@
     <message>
         <source>Tabs toolbar</source>
         <translation>Tabella instrumentorum "Tabs"</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>Optiones mandati initiantis</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -290,10 +298,6 @@
         <translation>versio</translation>
     </message>
     <message>
-        <source>Command-line options</source>
-        <translation>Optiones mandati initiantis</translation>
-    </message>
-    <message>
         <source>Usage:</source>
         <translation>Usus:</translation>
     </message>
@@ -307,6 +311,17 @@
     <message>
         <source>Error</source>
         <translation>Error</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Hora postremi frusti</translation>
     </message>
     </context>
 <context>
@@ -403,6 +418,10 @@
         <translation>praedefinitum</translation>
     </message>
     <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Nucleus</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
         <translation>Confirma optionum reconstituere</translation>
     </message>
@@ -489,6 +508,10 @@
         <translation>Numerus frustorum iam nunc</translation>
     </message>
     <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">Cassidile: </translation>
+    </message>
+    <message>
         <source>Last block time</source>
         <translation>Hora postremi frusti</translation>
     </message>
@@ -527,20 +550,32 @@
         <source>&amp;Label:</source>
         <translation>&amp;Titulus:</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>Nuntius:</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Copia Inscriptionem</translation>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantitas</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -549,16 +584,8 @@
         <translation>Mitte Nummos</translation>
     </message>
     <message>
-        <source>Insufficient funds!</source>
-        <translation>Inopia nummorum</translation>
-    </message>
-    <message>
         <source>Amount:</source>
         <translation>Quantitas:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Transactionis merces:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -610,10 +637,6 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Nuntius:</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -705,6 +728,14 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantitas</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -715,9 +746,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmatum</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -727,9 +782,25 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Mitte Nummos</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Exporta</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exporta data in hac tabella in plicam</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Conserva cassidile</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

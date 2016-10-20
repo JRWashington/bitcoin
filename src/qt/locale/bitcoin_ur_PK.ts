@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>پتہ تبدیل کرے کے لیے دائیاں کلک کریں</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>نیا ایڈریس بنائیں</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>نیا</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>سلیکٹڈ پتے کو کمپوٹر کی عارضی جگہ رکھیں</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>نقل</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>بند</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>چٹ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation> پتہ</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -110,6 +102,9 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -139,23 +134,43 @@
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;رقم:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>چٹ:</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>کاپی پتہ</translation>
+        <source>Address</source>
+        <translation> پتہ</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>رقم</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>چٹ</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>چٹ</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>ناکافی فنڈز</translation>
-    </message>
     <message>
         <source>Amount:</source>
         <translation>رقم:</translation>
@@ -167,6 +182,14 @@
     </context>
 <context>
     <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>رقم:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>چٹ:</translation>
+    </message>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
@@ -185,15 +208,43 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>رقم</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>چٹ</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>چٹ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation> پتہ</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -206,6 +257,14 @@
     </context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>برآمد</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

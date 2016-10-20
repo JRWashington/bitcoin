@@ -46,6 +46,9 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -77,17 +80,13 @@
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>日期</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>余额不足</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>选择...</translation>
-    </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -109,15 +108,27 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>日期</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>日期</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Date</source>
+        <translation>日期</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -136,10 +147,6 @@
     <message>
         <source>Transaction amounts must be positive</source>
         <translation>转账额度须为正数</translation>
-    </message>
-    <message>
-        <source>Transaction too large for fee policy</source>
-        <translation>根据费率标准，本次转账超额</translation>
     </message>
     <message>
         <source>Transaction too large</source>

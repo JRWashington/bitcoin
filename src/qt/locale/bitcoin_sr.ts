@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Kliknite desnim klikom radi izmene adrese ili oznake</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Napravite novu adresu</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>Novo</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopirajte trenutno izabranu adresu</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>Kopirajte</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>Zatvorite</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -40,6 +24,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -112,6 +104,10 @@
     <message>
         <source>&amp;Change Passphrase...</source>
         <translation>Промени &amp;лозинку...</translation>
+    </message>
+    <message>
+        <source>Wallet:</source>
+        <translation type="unfinished">новчаник:</translation>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
@@ -222,6 +218,13 @@
     <name>Intro</name>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Форма</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -268,6 +271,10 @@
     </context>
 <context>
     <name>RPCConsole</name>
+    <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">новчаник: </translation>
+    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -279,20 +286,32 @@
         <source>&amp;Label:</source>
         <translation>&amp;Етикета</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>Poruka:</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Kopirajte adresu</translation>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>iznos</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>datum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -331,10 +350,6 @@
         <source>Alt+P</source>
         <translation>Alt+П</translation>
     </message>
-    <message>
-        <source>Message:</source>
-        <translation>Poruka:</translation>
-    </message>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
@@ -365,6 +380,14 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>datum</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>iznos</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -375,9 +398,33 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>datum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Potvrdjen</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>datum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -387,9 +434,21 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Слање новца</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Eksportuj podatke iz izabrane kartice u fajl</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Backup новчаника</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

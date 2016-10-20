@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>按右擊修改位址或標記</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>新增一個位址</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>新增 &amp;N</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>複製目前選擇的位址到系統剪貼簿</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>複製 &amp;C</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>關閉 &amp;l</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>標記</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>位址</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -66,15 +58,7 @@
     </context>
 <context>
     <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP位址/遮罩</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>封鎖至</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -88,10 +72,6 @@
     <message>
         <source>&amp;Overview</source>
         <translation>總覽 &amp;O</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>節點</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -138,16 +118,8 @@
         <translation>改變密碼... &amp;C</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>付款位址... &amp;S</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>收款位址... &amp;R</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>開啓網址... &amp;U</translation>
+        <source>Wallet:</source>
+        <translation type="unfinished">錢包:</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -207,6 +179,14 @@
     </context>
 <context>
     <name>EditAddressDialog</name>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;標記</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;位址</translation>
+    </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
@@ -218,10 +198,17 @@
     <name>Intro</name>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
     <name>OptionsDialog</name>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>&amp;錢包</translation>
+    </message>
     </context>
 <context>
     <name>OverviewPage</name>
@@ -240,21 +227,53 @@
     </context>
 <context>
     <name>RPCConsole</name>
+    <message>
+        <source>Debug window</source>
+        <translation>除錯視窗</translation>
+    </message>
+    <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">錢包: </translation>
+    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation type="unfinished">&amp;標記:</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>位址</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>標記</translation>
+    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>標記</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
+    <message>
+        <source>S&amp;end</source>
+        <translation type="unfinished">付款 &amp;S</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation type="unfinished">&amp;標記:</translation>
+    </message>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
@@ -279,9 +298,21 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>標記</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Label</source>
+        <translation>標記</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>位址</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -294,6 +325,14 @@
     </context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>匯出 &amp;E</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>把目前分頁的資料匯出至檔案</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

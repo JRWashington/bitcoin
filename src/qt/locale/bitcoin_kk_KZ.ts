@@ -6,16 +6,8 @@
         <translation>Жаңа адрес енгізу</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>Жаңа</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Таңдаған адресті тізімнен жою</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>Жабу</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -28,6 +20,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -70,6 +70,10 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
+        <source>Wallet:</source>
+        <translation type="unfinished">Әмиян:</translation>
+    </message>
+    <message>
         <source>Bitcoin</source>
         <translation>Биткоин</translation>
     </message>
@@ -92,26 +96,6 @@
     <message>
         <source>&amp;Help</source>
         <translation>Көмек</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n сағат</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n күн</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n апта</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 немесе %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n жыл</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -141,22 +125,6 @@
         <translation>Саны</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Басымдық</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Комиссия</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Шаң</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Комиссия алу кейін</translation>
-    </message>
-    <message>
         <source>Amount</source>
         <translation>Саны</translation>
     </message>
@@ -165,16 +133,8 @@
         <translation>Күні</translation>
     </message>
     <message>
-        <source>Confirmations</source>
-        <translation>Растау саны</translation>
-    </message>
-    <message>
         <source>Confirmed</source>
         <translation>Растық</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Басымдық</translation>
     </message>
     </context>
 <context>
@@ -202,6 +162,9 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -226,7 +189,23 @@
         <source>Amount</source>
         <translation>Саны</translation>
     </message>
-    </context>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n сағат</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n күн</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n апта</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n жыл</numerusform></translation>
+    </message>
+</context>
 <context>
     <name>QRImageWidget</name>
     </context>
@@ -236,6 +215,10 @@
         <source>&amp;Information</source>
         <translation>Информация</translation>
     </message>
+    <message>
+        <source>Wallet: </source>
+        <translation type="unfinished">Әмиян: </translation>
+    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -243,12 +226,36 @@
         <source>&amp;Amount:</source>
         <translation>Саны</translation>
     </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>таңба:</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Саны</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Күні</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -257,20 +264,8 @@
         <translation>Саны</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Басымдық</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Комиссия:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Комиссия алу кейін:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Шаң</translation>
+        <source>S&amp;end</source>
+        <translation type="unfinished">Жіберу</translation>
     </message>
     </context>
 <context>
@@ -278,6 +273,10 @@
     <message>
         <source>A&amp;mount:</source>
         <translation>Саны</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>таңба:</translation>
     </message>
     </context>
 <context>
@@ -297,15 +296,47 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Күні</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Саны</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Күні</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Confirmed</source>
+        <translation>Растық</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Күні</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -318,6 +349,10 @@
     </context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>Экспорт</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>

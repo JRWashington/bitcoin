@@ -16,6 +16,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Record</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Addresse</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -40,10 +48,6 @@
     </context>
 <context>
     <name>CoinControlDialog</name>
-    <message>
-        <source>(un)select all</source>
-        <translation>Toute sélectionner </translation>
-    </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -68,6 +72,9 @@
         <source>Welcome</source>
         <translation>Bienvenue </translation>
     </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -95,18 +102,38 @@
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>Record:</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Addresse</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Record</translation>
+    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Record</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     </context>
 <context>
     <name>SendCoinsEntry</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>Record:</translation>
+    </message>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
@@ -131,9 +158,21 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Record</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Label</source>
+        <translation>Record</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Addresse</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>

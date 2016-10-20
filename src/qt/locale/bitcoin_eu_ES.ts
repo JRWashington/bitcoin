@@ -2,28 +2,12 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Eskuin-klika helbidea edo etiketa editatzeko</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Sortu helbide berria</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Berria</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopiatu hautatutako helbidea sistemaren arbelera</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopiatu</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>&amp;Itxi</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -44,6 +28,14 @@
     </context>
 <context>
     <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Helbidea</translation>
+    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -108,10 +100,6 @@
     <message>
         <source>&amp;Options...</source>
         <translation>&amp;Aukerak...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Helbideak jasotzen</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -198,6 +186,13 @@
     <name>Intro</name>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Inprimakia</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -243,20 +238,32 @@
         <source>&amp;Label:</source>
         <translation>&amp;Etiketa:</translation>
     </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>Mezua</translation>
-    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Kopiatu helbidea</translation>
+        <source>Address</source>
+        <translation>Helbidea</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Kopurua</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -308,10 +315,6 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Message:</source>
-        <translation>Mezua</translation>
-    </message>
-    <message>
         <source>Pay To:</source>
         <translation>Ordaindu honi:</translation>
     </message>
@@ -349,6 +352,14 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Kopurua</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -359,9 +370,29 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Helbidea</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -371,9 +402,21 @@
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Bidali txanponak</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Esportatu</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Esportatu datuak uneko fitxategian</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
